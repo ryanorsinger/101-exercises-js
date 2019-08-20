@@ -156,7 +156,7 @@ print("Exercise 10 is correct")
 
 
 # ## Basic Functions
-# ![](http://)**Hint** Be sure to `return` values from your function definitions. The assert statements will call your function(s) for you.
+# **Hint** Be sure to `return` values from your function definitions. The assert statements will call your function(s) for you.
 
 
 
