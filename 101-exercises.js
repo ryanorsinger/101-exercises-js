@@ -5,7 +5,7 @@
 // Example problem setup: Create a variable named doingJSRightNow and assign it the boolean true.
 // The line below creates the variable named doingJSRightNow and assigns the boolean value true
 // To complete Exercise #0, uncomment the following line of JS
-// var doingJSRightNow = true
+var doingJSRightNow = true
 
 // The lines below will test your answer. If you see an error, then it means that your answer is incorrect or incomplete.
 assert(doingJSRightNow, true, "a variable holding a true boolean value should be equal to true"); 
@@ -150,6 +150,7 @@ assert(sayHello("Pat"), "Hello, Pat!");
 assert(sayHello("Astrud"), "Hello, Astrud!");
 assert(sayHello("June"), "Hello, June!");
 assert(sayHello("World"), "Hello, World!");
+
 
 // Heres another example function definition
 // This plusTwo function takes in a variable and adds the number 2 to it.
@@ -543,10 +544,10 @@ addToDone("Exercise 43 is correct.")
 // Exercise 44
 // Write a function definition named hasVowels that takes in value and returns true if the string contains any vowels.
 
-assert hasVowels("banana") == true
-assert hasVowels("ubuntu") == true
-assert hasVowels("QQQQ") == false
-assert hasVowels("wyrd") == false
+assert(hasVowels("banana"), true);
+assert(hasVowels("ubuntu"), true);
+assert(hasVowels("QQQQ"), false);
+assert(hasVowels("wyrd"), false);
 addToDone("Exercise 44 is correct.")
 
 
@@ -969,14 +970,14 @@ addToDone("Exercise 86 is correct.")
 // Working with JS Objects
 
 // The following objects 
-tukey_paper = {
+const tukey_paper = {
     "title": "The Future of Data Analysis",
     "author": "John W. Tukey",
     "link": "https://projecteuclid.org/euclid.aoms/1177704711",
     "year_published": 1962
 }
 
-thomas_paper = {
+const thomas_paper = {
     "title": "A mathematical model of glutathione metabolism",
     "author": "Rachel Thomas",
     "link": "https://www.ncbi.nlm.nih.gov/pubmed/18442411",
@@ -992,7 +993,7 @@ assert(getPaperTitle(thomas_paper), "A mathematical model of glutathione metabol
 addToDone("Exercise 87 is correct.")
 
 // this code defines a JS object with information about a book.
-book = {
+const book = {
     "title": "Genetic Algorithms and Machine Learning for Programmers",
     "price": 36.99,
     "author": "Frances Buontempo"
@@ -1017,7 +1018,7 @@ addToDone("Exercise 90 is complete.")
 // The next exercises work with a arrays of objects.
 // You'll see arrays of objects over and over again with data in a program. 
 // Here is our arrays of objects.
-books = [
+const books = [
     {
         "title": "Genetic Algorithms and Machine Learning for Programmers",
         "price": 36.99,
