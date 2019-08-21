@@ -188,7 +188,7 @@ addToDoneList("Exercise 12 is correct.")
 
 
 // Exercise 13
-// Write a function definition named isNegative that takes in a number and returns True or False if that number is negative.
+// Write a function definition named isNegative that takes in a number and returns true or False if that number is negative.
 
 
 
@@ -275,3 +275,335 @@ assert(isNegativeEven(positiveEvenNumber), false, "Double check your syntax and 
 assert(isNegativeEven(negativeOddNumber), false, "Double check your syntax and logic");
 assert(isNegativeEven(negativeEvenNumber), true, "Double check your syntax and logic");
 addToDoneList("Exercise 20 is correct.")
+
+
+
+// Exercise 21
+// Write a function definition named half that takes in a number and returns half the provided number.
+
+assert(half(4), 2);
+assert(half(5), 2.5);
+assert(half(positiveOddNumber), positiveOddNumber / 2);
+assert(half(positiveEvenNumber), positiveEvenNumber / 2);
+assert(half(negativeOddNumber), negativeOddNumber / 2);
+assert(half(negativeEvenNumber), negativeEvenNumber / 2);
+addToDoneList("Exercise 21 is correct.")
+
+
+
+// Exercise 22
+// Write a function definition named double that takes in a number and returns double the provided number.
+
+assert(double(4), 8)
+assert(double(5), 10)
+assert(double(positiveOddNumber), positiveOddNumber * 2)
+assert(double(positiveEvenNumber), positiveEvenNumber * 2)
+assert(double(negativeOddNumber), negativeOddNumber * 2)
+assert(double(negativeEvenNumber), negativeEvenNumber * 2)
+addToDoneList("Exercise 22 is correct.")
+
+
+
+// Exercise 23
+// Write a function definition named triple that takes in a number and returns triple the provided number.
+
+assert(triple(4), 12);
+assert(triple(5), 15);
+assert(triple(positiveOddNumber), positiveOddNumber * 3);
+assert(triple(positiveEvenNumber), positiveEvenNumber * 3);
+assert(triple(negativeOddNumber), negativeOddNumber * 3);
+assert(triple(negativeEvenNumber), negativeEvenNumber * 3);
+addToDoneList("Exercise 23 is correct.")
+
+
+
+// Exercise 24
+// Write a function definition named reverse_sign that takes in a number and returns the provided number but with the sign reversed.
+
+assert(reverse_sign(4), -4);
+assert(reverse_sign(-5), 5);
+assert(reverse_sign(positiveOddNumber), positiveOddNumber * -1);
+assert(reverse_sign(positiveEvenNumber), positiveEvenNumber * -1);
+assert(reverse_sign(negativeOddNumber), negativeOddNumber * -1);
+assert(reverse_sign(negativeEvenNumber), negativeEvenNumber * -1);
+addToDoneList("Exercise 24 is correct.")
+
+
+
+// Exercise 25
+// Write a function definition named absolute_value that takes in a number and returns the absolute value of the provided number
+
+assert(absolute_value(4), 4);
+assert(absolute_value(-5), 5);
+assert(absolute_value(positiveOddNumber), positiveOddNumber);
+assert(absolute_value(positiveEvenNumber), positiveEvenNumber);
+assert(absolute_value(negativeOddNumber), negativeOddNumber * -1);
+assert(absolute_value(negativeEvenNumber), negativeEvenNumber * -1);
+addToDoneList("Exercise 25 is correct.")
+
+
+
+// Exercise 26
+// Write a function definition named is_multiple_of_three that takes in a number and returns true or false if the number is evenly divisible by 3.
+
+assert(is_multiple_of_three(3), true);
+assert(is_multiple_of_three(15), true);
+assert(is_multiple_of_three(9), true);
+assert(is_multiple_of_three(4), false);
+assert(is_multiple_of_three(10), false);
+addToDoneList("Exercise 26 is correct.")
+
+
+
+
+// Exercise 27
+// Write a function definition named is_multiple_of_five that takes in a number and returns true or false if the number is evenly divisible by 5.
+
+assert(is_multiple_of_five(3), false);
+assert(is_multiple_of_five(15), true);
+assert(is_multiple_of_five(9), false);
+assert(is_multiple_of_five(4), false);
+assert(is_multiple_of_five(10), true);
+addToDoneList("Exercise 27 is correct.")
+
+
+
+// Exercise 28
+// Write a function definition named is_multiple_of_both_three_and_five that takes in a number and returns true or false if the number is evenly divisible by both 3 and 5.
+
+assert(is_multiple_of_both_three_and_five(15), true);
+assert(is_multiple_of_both_three_and_five(45), true);
+assert(is_multiple_of_both_three_and_five(3), false);
+assert(is_multiple_of_both_three_and_five(9), false);
+assert(is_multiple_of_both_three_and_five(4), false);
+addToDoneList("Exercise 28 is correct.")
+
+
+
+
+// Exercise 29
+// Write a function definition named square that takes in a number and returns the number times itself.
+
+assert(square(3), 9);
+assert(square(2), 4);
+assert(square(9), 81);
+assert(square(positiveOddNumber), positiveOddNumber * positiveOddNumber);
+addToDoneList("Exercise 29 is correct.")
+
+
+
+// Exercise 30
+// Write a function definition named add that takes in two numbers and returns the sum.
+
+
+assert(add(3, 2), 5);
+assert(add(10, -2), 8);
+assert(add(5, 7), 12);
+addToDoneList("Exercise 30 is correct.")
+
+
+
+// Exercise 31
+// Write a function definition named cube that takes in a number and returns the number times itself, times itself.
+
+assert(cube(3), 27);
+assert(cube(2), 8);
+assert(cube(5), 125);
+assert(cube(positiveOddNumber), positiveOddNumber * positiveOddNumber * positiveOddNumber);
+addToDoneList("Exercise 31 is correct.")
+
+
+
+// Exercise 32
+// Write a function definition named square_root that takes in a number and returns the square root of the provided number
+
+
+assert(square_root(4), 2.0);
+assert(square_root(64), 8.0);
+assert(square_root(81), 9.0);
+addToDoneList("Exercise 32 is correct.")
+
+
+
+
+// Exercise 33
+// Write a function definition named subtract that takes in two numbers and returns the first minus the second argument.
+
+
+assert(subtract(8, 6), 2);
+assert(subtract(27, 4), 23);
+assert(subtract(12, 2), 10);
+addToDoneList("Exercise 33 is correct.")
+
+
+
+// Exercise 34
+// Write a function definition named multiply that takes in two numbers and returns the first times the second argument.
+
+assert(multiply(2, 1), 2);
+assert(multiply(3, 5), 15);
+assert(multiply(5, 2), 10);
+addToDoneList("Exercise 34 is correct.")
+
+
+
+// Exercise 35
+// Write a function definition named divide that takes in two numbers and returns the first argument divided by the second argument.
+
+
+assert(divide(27, 9), 3);
+assert(divide(15, 3), 5);
+assert(divide(5, 2), 2.5);
+assert(divide(10, 2), 5);
+addToDoneList("Exercise 35 is correct.")
+
+
+// Exercise 36
+// Write a function definition named quotient that takes in two numbers and returns only the quotient first argument quotient by the second argument.
+
+assert(quotient(27, 9), 3)
+assert(quotient(5, 2), 2)
+assert(quotient(10, 3), 3)
+addToDoneList("Exercise 36 is correct.")
+
+
+// Exercise 37
+// Write a function definition named remainder that takes in two numbers and returns the remainder of first argument divided by the second argument.
+
+assert(remainder(3, 3), 0);
+assert(remainder(5, 2), 1);
+assert(remainder(7, 5), 2);
+addToDoneList("Exercise 37 is correct.")
+
+
+
+// Exercise 38
+// Write a function definition named sum_of_squares that takes in two numbers, squares each number, then returns the sum of both squares.
+
+assert(sum_of_squares(3, 2), 13);
+assert(sum_of_squares(5, 2), 29);
+assert(sum_of_squares(2, 4), 20);
+addToDoneList("Exercise 38 is correct.")
+
+
+
+// Exercise 39
+// Write a function definition named times_two_plus_three that takes in a number, multiplies it by two, adds 3 and returns the result.
+
+assert(times_two_plus_three(0), 3);
+assert(times_two_plus_three(1), 5);
+assert(times_two_plus_three(2), 7);
+assert(times_two_plus_three(3), 9);
+assert(times_two_plus_three(5), 13);
+addToDoneList("Exercise 39 is correct.")
+
+
+// Exercise 40
+// Write a function definition named area_of_rectangle that takes in two numbers and returns the product.
+
+assert(area_of_rectangle(1, 3), 3);
+assert(area_of_rectangle(5, 2), 10);
+assert(area_of_rectangle(2, 7), 14);
+assert(area_of_rectangle(5.3, 10.3), 54.59);
+addToDoneList("Exercise 40 is correct.")
+
+
+
+// Exercise 41
+// Write a function definition named areaOfCircle that takes in a number representing a circle's radius and returns the area of the circle
+
+
+assert(areaOfCircle(3), 28.274333882308138);
+assert(areaOfCircle(5), 78.53981633974483);
+assert(areaOfCircle(7), 153.93804002589985);
+addToDoneList("Exercise 41 is correct.")
+
+
+// Exercise 42
+// Write a function definition named circumference that takes in a number representing a circle's radius and returns the circumference.
+
+assert(circumference(3), 18.84955592153876);
+assert(circumference(5), 31.41592653589793);
+assert(circumference(7), 43.982297150257104);
+addToDoneList("Exercise 42 is correct.")
+
+
+
+// Exercise 43
+// Write a function definition named isVowel that takes in value and returns true if the value is a, e, i, o, u in upper or lower case.
+
+assert(isVowel("a"), true);
+assert(isVowel("U"), true);
+assert(isVowel("banana"), false);
+assert(isVowel("Q"), false);
+assert(isVowel("y"), false);
+addToDoneList("Exercise 43 is correct.")
+
+
+// Exercise 44
+// Write a function definition named hasVowels that takes in value and returns true if the string contains any vowels.
+
+assert hasVowels("banana") == true
+assert hasVowels("ubuntu") == true
+assert hasVowels("QQQQ") == false
+assert hasVowels("wyrd") == false
+addToDoneList("Exercise 44 is correct.")
+
+
+// Exercise 45
+// Write a function definition named countVowels that takes in value and returns the count of the nubmer of vowels in a sequence.
+
+assert(countVowels("banana"), 3)
+assert(countVowels("ubuntu"), 3)
+assert(countVowels("mango"), 2)
+assert(countVowels("QQQQ"), 0)
+assert(countVowels("wyrd"), 0)
+addToDoneList("Exercise 45 is correct.")
+
+
+// Exercise 46
+// Write a function definition named removeVowels that takes in string and returns the string without any vowels
+
+assert(removeVowels("banana"), "bnn");
+assert(removeVowels("ubuntu"), "bnt");
+assert(removeVowels("mango"), "mng");
+assert(removeVowels("QQQQ"), "QQQQ");
+addToDoneList("Exercise 46 is correct.")
+
+
+// Exercise 47
+// Write a function definition named startsWithVowel that takes in string and true if the string starts with a vowel
+
+assert(startsWithVowel("ubuntu"), true);
+assert(startsWithVowel("banana"), false);
+assert(startsWithVowel("mango"), false);
+addToDoneList("Exercise 47 is correct.")
+
+
+// Exercise 48
+// Write a function definition named endsWithVowel that takes in string and true if the string ends with a vowel
+
+
+assert(endsWithVowel("ubuntu") == true);
+assert(endsWithVowel("banana") == true);
+assert(endsWithVowel("mango") == true);
+assert(endsWithVowel("spinach") == false);
+addToDoneList("Exercise 48 is correct.")
+
+
+// Exercise 49
+// Write a function definition named startsAndEndsWithVowel that takes in string and returns true if the string starts and ends with a vowel
+
+assert(startsAndEndsWithVowel("ubuntu") == true);
+assert(startsAndEndsWithVowel("banana") == false);
+assert(startsAndEndsWithVowel("mango") == false);
+addToDoneList("Exercise 49 is correct.")
+
+
+// Exercise 50
+// Write a function definition named first that takes in sequence and returns the first value of that sequence.
+
+assert(first("ubuntu"), "u");
+assert(first([1, 2, 3]), 1);
+assert(first(["python", "is", "awesome"]), "python");
+addToDoneList("Exercise 50 is correct.")
