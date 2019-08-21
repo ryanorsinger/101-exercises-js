@@ -803,7 +803,124 @@ print("Exercise 69 is correct.")
 assert(onlyNegativeNumbers([1, 2, 3]), []);
 assert(onlyNegativeNumbers([-5, -4, -3, -2, -1, 1, 2, 3, 4, 5]), [-5, -4, -3, -2, -1]);
 assert(onlyNegativeNumbers([-4, -3, 1]), [-4, -3]);
-print("Exercise 70 is correct.")
+print("Exercise 70 is correct.");
 
 
+
+// Exercise 71
+// Write a function definition named hasEvens that takes in sequence of numbers and returns true if there are any even numbers in the sequence
+
+assert(hasEvens([1, 2, 3]), true);
+assert(hasEvens([2, 5, 6]), true);
+assert(hasEvens([3, 3, 3]), false);
+assert(hasEvens([]), false);
+print("Exercise 71 is correct.");
+
+
+
+// Exercise 72
+// Write a function definition named countEvens that takes in sequence of numbers and returns the number of even numbers
+
+assert(countEvens([1, 2, 3]), 1);
+assert(countEvens([2, 5, 6]), 2);
+assert(countEvens([3, 3, 3]), 0);
+assert(countEvens([5, 6, 7, 8] ), 2);
+print("Exercise 72 is correct.")
+
+
+// Exercise 73
+// Write a function definition named hasOdds that takes in sequence of numbers and returns true if there are any odd numbers in the sequence
+
+assert(hasOdds([1, 2, 3]), true);
+assert(hasOdds([2, 5, 6]), true);
+assert(hasOdds([3, 3, 3]), true);
+assert(hasOdds([2, 4, 6]), false);
+print("Exercise 73 is correct.")
+
+
+// Exercise 74
+// Write a function definition named countOdds that takes in sequence of numbers and returns a count of the any odd numbers in the sequence
+
+assert(countOdds([1, 2, 3]), 2);
+assert(countOdds([2, 5, 6]), 1);
+assert(countOdds([3, 3, 3]), 3);
+assert(countOdds([2, 4, 6]), 0);
+print("Exercise 74 is correct.")
+
+
+// Exercise 75
+// Write a function definition named countNegatives that takes in sequence of numbers and returns a count of the number of negative numbers
+
+assert(countNegatives([1, -2, 3]), 1);
+assert(countNegatives([2, -5, -6]), 2);
+assert(countNegatives([3, 3, 3]), 0);
+print("Exercise 75 is correct.")
+
+
+// Exercise 76
+// Write a function definition named countPositives that takes in sequence of numbers and returns a count of the number of positive numbers
+
+assert(countPositives([1, -2, 3]), 2);
+assert(countPositives([2, -5, -6]), 1);
+assert(countPositives([3, 3, 3]), 3);
+assert(countPositives([-2, -1, -5]), 0);
+print("Exercise 76 is correct.")
+
+
+// Exercise 77
+// Write a function definition named onlyPositiveEvens that takes in sequence of numbers and returns a list containing all the positive evens from the sequence
+
+assert(onlyPositiveEvens([1, -2, 3]), []);
+assert(onlyPositiveEvens([2, -5, -6]), [2]);
+assert(onlyPositiveEvens([3, 3, 4, 6]), [4, 6]);
+assert(onlyPositiveEvens([2, 3, 4, -1, -5]), [2, 4]);
+print("Exercise 77 is correct.")
+
+
+// Exercise 78
+// Write a function definition named onlyPositiveOdds that takes in sequence of numbers and returns a list containing all the positive odd numbers from the sequence
+
+assert(onlyPositiveOdds([1, -2, 3]), [1, 3]);
+assert(onlyPositiveOdds([2, -5, -6]), []);
+assert(onlyPositiveOdds([3, 3, 4, 6]), [3, 3]);
+assert(onlyPositiveOdds([2, 3, 4, -1, -5]), [3]);
+print("Exercise 78 is correct.")
+
+
+// Exercise 79
+// Write a function definition named onlyNegativeEvens that takes in sequence of numbers and returns a list containing all the negative even numbers from the sequence
+
+assert(onlyNegativeEvens([1, -2, 3]), [-2]);
+assert(onlyNegativeEvens([2, -5, -6]), [-6]);
+assert(onlyNegativeEvens([3, 3, 4, 6]), []);
+assert(onlyNegativeEvens([-2, 3, 4, -1, -4]), [-2, -4]);
+print("Exercise 79 is correct.")
+
+
+// Exercise 80
+// Write a function definition named onlyNegativeOdds that takes in sequence of numbers and returns a list containing all the negative odd numbers from the sequence
+
+assert(onlyNegativeOdds([1, -2, 3]), []);
+assert(onlyNegativeOdds([2, -5, -6]), [-5]);
+assert(onlyNegativeOdds([3, 3, 4, 6]), []);
+assert(onlyNegativeOdds([2, -3, 4, -1, -4]), [-3, -1]);
+print("Exercise 80 is correct.")
+
+
+// Exercise 81
+// Write a function definition named shortestString that takes in a list of strings and returns the shortest string in the list.
+
+assert(shortestString(["kiwi", "mango", "strawberry"]), "kiwi");
+assert(shortestString(["hello", "everybody"]), "hello");
+assert(shortestString(["mary", "had", "a", "little", "lamb"]), "a");
+print("Exercise 81 is correct.")
+
+
+// Exercise 82
+// Write a function definition named longestString that takes in sequence of strings and returns the longest string in the list.
+
+assert(longestString(["kiwi", "mango", "strawberry"]), "strawberry");
+assert(longestString(["hello", "everybody"]), "everybody");
+assert(longestString(["mary", "had", "a", "little", "lamb"]), "little");
+print("Exercise 82 is correct.")
 

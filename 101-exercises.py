@@ -163,16 +163,16 @@ print("Exercise 10 is correct")
 # Run this cell in order to generate some numbers to use in our functions after this.
 import random
     
-positive_even_number = random.randrange(2, 101, 2)
-negative_even_number = random.randrange(-100, -1, 2)
+positiveEvenNumber = random.randrange(2, 101, 2)
+negativeEvenNumber = random.randrange(-100, -1, 2)
 
-positive_odd_number = random.randrange(1, 100, 2)
-negative_odd_number = random.randrange(-101, 0, 2)
+positiveOddNumber = random.randrange(1, 100, 2)
+negativeOddNumber = random.randrange(-101, 0, 2)
 print("We now have some random numbers available for future exercises.")
-print("The random positive even number is", positive_even_number)
-print("The random positive odd nubmer is", positive_odd_number)
-print("The random negative even number", negative_even_number)
-print("The random negative odd number", negative_odd_number)
+print("The random positive even number is", positiveEvenNumber)
+print("The random positive odd nubmer is", positiveOddNumber)
+print("The random negative even number", negativeEvenNumber)
+print("The random negative odd number", negativeOddNumber)
 
 
 
@@ -209,8 +209,8 @@ print("The plus_two assertions executed appropriately... The second function def
     
 assert add_one(2) == 3, "Ensure that the function is defined, named properly, and returns the correct value"
 assert add_one(0) == 1, "Zero plus one is one."
-assert add_one(positive_even_number) == positive_even_number + 1, "Ensure that the function is defined, named properly, and returns the correct value"
-assert add_one(negative_odd_number) == negative_odd_number + 1, "Ensure that the function is defined, named properly, and returns the correct value"
+assert add_one(positiveEvenNumber) == positiveEvenNumber + 1, "Ensure that the function is defined, named properly, and returns the correct value"
+assert add_one(negativeOddNumber) == negativeOddNumber + 1, "Ensure that the function is defined, named properly, and returns the correct value"
 print("Exercise 11 is correct.") 
 
 
@@ -219,10 +219,10 @@ print("Exercise 11 is correct.")
 # Exercise 12
 # Write a function definition named is_positive that takes in a number and returns True or False if that number is positive.
 
-assert is_positive(positive_odd_number) == True, "Ensure that the function is defined, named properly, and returns the correct value"
-assert is_positive(positive_even_number) == True, "Ensure that the function is defined, named properly, and returns the correct value"
-assert is_positive(negative_odd_number) == False, "Ensure that the function is defined, named properly, and returns the correct value"
-assert is_positive(negative_even_number) == False, "Ensure that the function is defined, named properly, and returns the correct value"
+assert is_positive(positiveOddNumber) == True, "Ensure that the function is defined, named properly, and returns the correct value"
+assert is_positive(positiveEvenNumber) == True, "Ensure that the function is defined, named properly, and returns the correct value"
+assert is_positive(negativeOddNumber) == False, "Ensure that the function is defined, named properly, and returns the correct value"
+assert is_positive(negativeEvenNumber) == False, "Ensure that the function is defined, named properly, and returns the correct value"
 print("Exercise 12 is correct.")
 
 
@@ -231,10 +231,10 @@ print("Exercise 12 is correct.")
 # Exercise 13
 # Write a function definition named is_negative that takes in a number and returns True or False if that number is negative.
 
-assert is_negative(positive_odd_number) == False, "Ensure that the function is defined, named properly, and returns the correct value"
-assert is_negative(positive_even_number) == False, "Ensure that the function is defined, named properly, and returns the correct value"
-assert is_negative(negative_odd_number) == True, "Ensure that the function is defined, named properly, and returns the correct value"
-assert is_negative(negative_even_number) == True, "Ensure that the function is defined, named properly, and returns the correct value"
+assert is_negative(positiveOddNumber) == False, "Ensure that the function is defined, named properly, and returns the correct value"
+assert is_negative(positiveEvenNumber) == False, "Ensure that the function is defined, named properly, and returns the correct value"
+assert is_negative(negativeOddNumber) == True, "Ensure that the function is defined, named properly, and returns the correct value"
+assert is_negative(negativeEvenNumber) == True, "Ensure that the function is defined, named properly, and returns the correct value"
 print("Exercise 13 is correct.")
 
 
@@ -243,10 +243,10 @@ print("Exercise 13 is correct.")
 # Exercise 14
 # Write a function definition named is_odd that takes in a number and returns True or False if that number is odd.
 
-assert is_odd(positive_odd_number) == True, "Ensure that the function is defined, named properly, and returns the correct value"
-assert is_odd(positive_even_number) == False, "Ensure that the function is defined, named properly, and returns the correct value"
-assert is_odd(negative_odd_number) == True, "Ensure that the function is defined, named properly, and returns the correct value"
-assert is_odd(negative_even_number) == False, "Ensure that the function is defined, named properly, and returns the correct value"
+assert is_odd(positiveOddNumber) == True, "Ensure that the function is defined, named properly, and returns the correct value"
+assert is_odd(positiveEvenNumber) == False, "Ensure that the function is defined, named properly, and returns the correct value"
+assert is_odd(negativeOddNumber) == True, "Ensure that the function is defined, named properly, and returns the correct value"
+assert is_odd(negativeEvenNumber) == False, "Ensure that the function is defined, named properly, and returns the correct value"
 print("Exercise 14 is correct.")
 
 
@@ -256,10 +256,10 @@ print("Exercise 14 is correct.")
 # Write a function definition named is_even that takes in a number and returns True or False if that number is even.
 
 assert is_even(2) == True, "Ensure that the function is defined, named properly, and returns the correct value"
-assert is_even(positive_odd_number) == False, "Ensure that the function is defined, named properly, and returns the correct value"
-assert is_even(positive_even_number) == True, "Ensure that the function is defined, named properly, and returns the correct value"
-assert is_even(negative_odd_number) == False, "Ensure that the function is defined, named properly, and returns the correct value"
-assert is_even(negative_even_number) == True, "Ensure that the function is defined, named properly, and returns the correct value"
+assert is_even(positiveOddNumber) == False, "Ensure that the function is defined, named properly, and returns the correct value"
+assert is_even(positiveEvenNumber) == True, "Ensure that the function is defined, named properly, and returns the correct value"
+assert is_even(negativeOddNumber) == False, "Ensure that the function is defined, named properly, and returns the correct value"
+assert is_even(negativeEvenNumber) == True, "Ensure that the function is defined, named properly, and returns the correct value"
 print("Exercise 15 is correct.")
 
 
@@ -270,10 +270,10 @@ print("Exercise 15 is correct.")
 
 assert identity(fruits) == fruits, "Ensure that the function is defined, named properly, and returns the correct value"
 assert identity(vegetables) == vegetables, "Ensure that the function is defined, named properly, and returns the correct value"
-assert identity(positive_odd_number) == positive_odd_number, "Ensure that the function is defined, named properly, and returns the correct value"
-assert identity(positive_even_number) == positive_even_number, "Ensure that the function is defined, named properly, and returns the correct value"
-assert identity(negative_odd_number) == negative_odd_number, "Ensure that the function is defined, named properly, and returns the correct value"
-assert identity(negative_even_number) == negative_even_number, "Ensure that the function is defined, named properly, and returns the correct value"
+assert identity(positiveOddNumber) == positiveOddNumber, "Ensure that the function is defined, named properly, and returns the correct value"
+assert identity(positiveEvenNumber) == positiveEvenNumber, "Ensure that the function is defined, named properly, and returns the correct value"
+assert identity(negativeOddNumber) == negativeOddNumber, "Ensure that the function is defined, named properly, and returns the correct value"
+assert identity(negativeEvenNumber) == negativeEvenNumber, "Ensure that the function is defined, named properly, and returns the correct value"
 print("Exercise 16 is correct.")
 
 
@@ -283,10 +283,10 @@ print("Exercise 16 is correct.")
 # Write a function definition named is_positive_odd that takes in a number and returns True or False if the value is both greater than zero and odd
 
 assert is_positive_odd(3) == True, "Double check your syntax and logic" 
-assert is_positive_odd(positive_odd_number) == True, "Double check your syntax and logic"
-assert is_positive_odd(positive_even_number) == False, "Double check your syntax and logic"
-assert is_positive_odd(negative_odd_number) == False, "Double check your syntax and logic"
-assert is_positive_odd(negative_even_number) == False, "Double check your syntax and logic"
+assert is_positive_odd(positiveOddNumber) == True, "Double check your syntax and logic"
+assert is_positive_odd(positiveEvenNumber) == False, "Double check your syntax and logic"
+assert is_positive_odd(negativeOddNumber) == False, "Double check your syntax and logic"
+assert is_positive_odd(negativeEvenNumber) == False, "Double check your syntax and logic"
 print("Exercise 17 is correct.")
 
 
@@ -296,10 +296,10 @@ print("Exercise 17 is correct.")
 # Write a function definition named is_positive_even that takes in a number and returns True or False if the value is both greater than zero and even
 
 assert is_positive_even(4) == True, "Double check your syntax and logic" 
-assert is_positive_even(positive_odd_number) == False, "Double check your syntax and logic"
-assert is_positive_even(positive_even_number) == True, "Double check your syntax and logic"
-assert is_positive_even(negative_odd_number) == False, "Double check your syntax and logic"
-assert is_positive_even(negative_even_number) == False, "Double check your syntax and logic"
+assert is_positive_even(positiveOddNumber) == False, "Double check your syntax and logic"
+assert is_positive_even(positiveEvenNumber) == True, "Double check your syntax and logic"
+assert is_positive_even(negativeOddNumber) == False, "Double check your syntax and logic"
+assert is_positive_even(negativeEvenNumber) == False, "Double check your syntax and logic"
 print("Exercise 18 is correct.")
 
 
@@ -309,10 +309,10 @@ print("Exercise 18 is correct.")
 # Write a function definition named is_negative_odd that takes in a number and returns True or False if the value is both less than zero and odd.
 
 assert is_negative_odd(-3) == True, "Double check your syntax and logic" 
-assert is_negative_odd(positive_odd_number) == False, "Double check your syntax and logic"
-assert is_negative_odd(positive_even_number) == False, "Double check your syntax and logic"
-assert is_negative_odd(negative_odd_number) == True, "Double check your syntax and logic"
-assert is_negative_odd(negative_even_number) == False, "Double check your syntax and logic"
+assert is_negative_odd(positiveOddNumber) == False, "Double check your syntax and logic"
+assert is_negative_odd(positiveEvenNumber) == False, "Double check your syntax and logic"
+assert is_negative_odd(negativeOddNumber) == True, "Double check your syntax and logic"
+assert is_negative_odd(negativeEvenNumber) == False, "Double check your syntax and logic"
 print("Exercise 19 is correct.")
 
 
@@ -322,10 +322,10 @@ print("Exercise 19 is correct.")
 # Write a function definition named is_negative_even that takes in a number and returns True or False if the value is both less than zero and even.
 
 assert is_negative_even(-4) == True, "Double check your syntax and logic" 
-assert is_negative_even(positive_odd_number) == False, "Double check your syntax and logic"
-assert is_negative_even(positive_even_number) == False, "Double check your syntax and logic"
-assert is_negative_even(negative_odd_number) == False, "Double check your syntax and logic"
-assert is_negative_even(negative_even_number) == True, "Double check your syntax and logic"
+assert is_negative_even(positiveOddNumber) == False, "Double check your syntax and logic"
+assert is_negative_even(positiveEvenNumber) == False, "Double check your syntax and logic"
+assert is_negative_even(negativeOddNumber) == False, "Double check your syntax and logic"
+assert is_negative_even(negativeEvenNumber) == True, "Double check your syntax and logic"
 print("Exercise 20 is correct.")
 
 
@@ -336,10 +336,10 @@ print("Exercise 20 is correct.")
 
 assert half(4) == 2
 assert half(5) == 2.5
-assert half(positive_odd_number) == positive_odd_number / 2
-assert half(positive_even_number) == positive_even_number / 2
-assert half(negative_odd_number) == negative_odd_number / 2
-assert half(negative_even_number) == negative_even_number / 2
+assert half(positiveOddNumber) == positiveOddNumber / 2
+assert half(positiveEvenNumber) == positiveEvenNumber / 2
+assert half(negativeOddNumber) == negativeOddNumber / 2
+assert half(negativeEvenNumber) == negativeEvenNumber / 2
 print("Exercise 21 is correct.")
 
 
@@ -350,10 +350,10 @@ print("Exercise 21 is correct.")
 
 assert double(4) == 8
 assert double(5) == 10
-assert double(positive_odd_number) == positive_odd_number * 2
-assert double(positive_even_number) == positive_even_number * 2
-assert double(negative_odd_number) == negative_odd_number * 2
-assert double(negative_even_number) == negative_even_number * 2
+assert double(positiveOddNumber) == positiveOddNumber * 2
+assert double(positiveEvenNumber) == positiveEvenNumber * 2
+assert double(negativeOddNumber) == negativeOddNumber * 2
+assert double(negativeEvenNumber) == negativeEvenNumber * 2
 print("Exercise 22 is correct.")
 
 
@@ -364,10 +364,10 @@ print("Exercise 22 is correct.")
 
 assert triple(4) == 12
 assert triple(5) == 15
-assert triple(positive_odd_number) == positive_odd_number * 3
-assert triple(positive_even_number) == positive_even_number * 3
-assert triple(negative_odd_number) == negative_odd_number * 3
-assert triple(negative_even_number) == negative_even_number * 3
+assert triple(positiveOddNumber) == positiveOddNumber * 3
+assert triple(positiveEvenNumber) == positiveEvenNumber * 3
+assert triple(negativeOddNumber) == negativeOddNumber * 3
+assert triple(negativeEvenNumber) == negativeEvenNumber * 3
 print("Exercise 23 is correct.")
 
 
@@ -378,10 +378,10 @@ print("Exercise 23 is correct.")
 
 assert reverse_sign(4) == -4
 assert reverse_sign(-5) == 5
-assert reverse_sign(positive_odd_number) == positive_odd_number * -1
-assert reverse_sign(positive_even_number) == positive_even_number * -1
-assert reverse_sign(negative_odd_number) == negative_odd_number * -1
-assert reverse_sign(negative_even_number) == negative_even_number * -1
+assert reverse_sign(positiveOddNumber) == positiveOddNumber * -1
+assert reverse_sign(positiveEvenNumber) == positiveEvenNumber * -1
+assert reverse_sign(negativeOddNumber) == negativeOddNumber * -1
+assert reverse_sign(negativeEvenNumber) == negativeEvenNumber * -1
 print("Exercise 24 is correct.")
 
 
@@ -392,10 +392,10 @@ print("Exercise 24 is correct.")
 
 assert absolute_value(4) == 4
 assert absolute_value(-5) == 5
-assert absolute_value(positive_odd_number) == positive_odd_number
-assert absolute_value(positive_even_number) == positive_even_number
-assert absolute_value(negative_odd_number) == negative_odd_number * -1
-assert absolute_value(negative_even_number) == negative_even_number * -1
+assert absolute_value(positiveOddNumber) == positiveOddNumber
+assert absolute_value(positiveEvenNumber) == positiveEvenNumber
+assert absolute_value(negativeOddNumber) == negativeOddNumber * -1
+assert absolute_value(negativeEvenNumber) == negativeEvenNumber * -1
 print("Exercise 25 is correct.")
 
 
@@ -446,7 +446,7 @@ print("Exercise 28 is correct.")
 assert square(3) == 9
 assert square(2) == 4
 assert square(9) == 81
-assert square(positive_odd_number) == positive_odd_number * positive_odd_number
+assert square(positiveOddNumber) == positiveOddNumber * positiveOddNumber
 print("Exercise 29 is correct.")
 
 
@@ -469,7 +469,7 @@ print("Exercise 30 is correct.")
 assert cube(3) == 27
 assert cube(2) == 8
 assert cube(5) == 125
-assert cube(positive_odd_number) == positive_odd_number * positive_odd_number * positive_odd_number
+assert cube(positiveOddNumber) == positiveOddNumber * positiveOddNumber * positiveOddNumber
 print("Exercise 31 is correct.")
 
 
@@ -580,7 +580,7 @@ print("Exercise 40 is correct.")
 
 import math
 # Exercise 41
-# Write a function definition named area_of_circle that takes in a number representing a circle's radius and returns the area of the circl
+# Write a function definition named area_of_circle that takes in a number representing a circle's radius and returns the area of the circle
 
 assert area_of_circle(3) == 28.274333882308138
 assert area_of_circle(5) == 78.53981633974483
