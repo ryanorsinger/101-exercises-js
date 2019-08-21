@@ -3,46 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>JS Assessment</title>
-    <style type="text/css">
-        * {
-            font-family: Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans;
-        }
-        header {
-            margin: 1em;
-        }
-        main {
-            display: grid;
-            grid-template-columns: 2fr 2fr 1fr;
-            grid-column-gap: 0px;
-            grid-row-gap: 0px;
-            margin: 1em;
-        }
-        section {
-            padding: 1em;
-            min-height: 88vh;
-        }
-        h1 {
-            font-family:monospace;
-        }
-        .instructions {
-            background-color: burlywood;
-        }
-        .troubleshooting {
-            background-color: lavender;
-        }
-        .correct {
-            background-color: papayawhip;
-        }
-        section > h2 {
-            text-align: center;
-        }
-        .troubleshooting img {
-            width: 600px;
-            height: auto;
-            /*margin: .5em;*/
-        }
-        
-    </style>
+    <link rel="stylesheet" type="text/css" href="./style.css">
 </head>
 <body>
     <header>
@@ -51,43 +12,58 @@
     <main>
         <section class="instructions">
             <h2>Instructions</h2>
-
-            <h3>Quick Start</h3>
-            <ol>
-                <li>Create yourself an account on <a href="https://glitch.com">Glitch.com</a></li>
-                <li>Click on the fish icon in the upper right and select "Remix on Glitch" to make your own copy</li>
-                <li>Use Glitch.com as your editor</li>
-            </ol>
+            <article>
+                <h3>Quick Start</h3>
+                <ol>
+                    <li>Create yourself an account on <a href="https://glitch.com">Glitch.com</a></li>
+                    <li>Click on the fish icon in the upper right and select "Remix on Glitch" to make your own copy</li>
+                    <li>Use Glitch.com as your editor</li>
+                </ol>
+            </article>
             <hr>
-            <h3>Orientation</h3>
-            <ul>
-                <li>index.html is the page that runs all the JS contained in 101-exercises.js</li>
-                <li>Open the JavaScript console in <a href="https://developer.mozilla.org/en-US/docs/Tools/Web_Console/Opening_the_Web_Console" target="_blank">Firefox</a> or <a href="https://stackoverflow.com/questions/66420/how-do-you-launch-the-javascript-debugger-in-google-chrome" target="_blank">Chrome</a>. F12 usually works.</li>
-                <li>Start writing solutions inside of 101-exercises.js in the editor.</li>
-                <li>Refresh index.html to re-run any new changes from 101-exercises.js</li>
-            </ul>
+            <article>
+                <h3>Orientation</h3>
+                <ul>
+                    <li>index.html is the page that runs all the JS contained in 101-exercises.js</li>
+                    <li>Open the JavaScript console in <a href="https://developer.mozilla.org/en-US/docs/Tools/Web_Console/Opening_the_Web_Console" target="_blank">Firefox</a> or <a href="https://stackoverflow.com/questions/66420/how-do-you-launch-the-javascript-debugger-in-google-chrome" target="_blank">Chrome</a>. F12 usually works.</li>
+                    <li>Start writing solutions inside of 101-exercises.js in the editor.</li>
+                    <li>Refresh index.html to re-run any new changes from 101-exercises.js</li>
+                </ul>
+            </article>
+            <hr>
+            <article>
+                <h3>Rationale</h3>
+                <p>Welcome to 101-Exercises!</p>
+                <p>This project exists to help learners gain deep practice with JS fundamentals, syntax, and converting problems in English to solutions in JS.</p>
+                <p>The best way to learn how to program is write programs. Each exercise is a tiny little program.</p>
+                <p>To complete the exercises, expect to do lots of search engine searches, make many mistakes, and to feel stuck.</p>
+            </article>  
 
             <hr>
-            <h3>Welcome!</h3>
-            <p>Welcome to 101-Exercises!</p>
-            <p>This project exists to help learners gain deep practice with JS fundamentals, syntax, and converting problems in English to solutions in JS.</p>
-            <p>If you notice any typos, misspellings, or mistakes, please triple check your work and <a href="" target="_blank">open an issue on GitHub</a> citing both the line number and exercise number.</p>
-
-            <hr>
-            
+            <article>
+                <h3>Resources</h3>
+                
+                <ul>
+                    <li><a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps" target="_blank">JS First Steps</a></li>
+                    <li><a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks" target="_blank">JS Building Blocks</a></li>
+                    <li><a href="https://eloquentjavascript.net/" targe="_blank">First chapters of Eloquent JavaScript</a></li>
+                </ul>
+            </article>
         </section>
         <section class="troubleshooting">
-            <h2>Troubleshooting</h2>
-            <h3>General Guidance</h3>
-            <ul>
-                <li>JS Code runs from top to bottom</li>
-                <li>Any error in your JS code keeps the following code from running.</li>
-                <li>Double check your spelling. Capitalization matters in programming.</li>
-                <li>If you're sure you spelled something, check it anyways.</li>
-            </ul>
+            <article>
+                <h2>Troubleshooting</h2>
+                <h3>General Guidance</h3>
+                <ul>
+                    <li>JS Code runs from top to bottom</li>
+                    <li>Any error in your JS code keeps the following code from running.</li>
+                    <li>Double check your spelling. Capitalization matters in programming.</li>
+                    <li>If you're sure you spelled something, check it anyways.</li>
+                </ul>
+            </article>
             <hr>
-            <h3>Error messages</h3>
-                
+            <article>
+                <h3>Error messages</h3>
                 <figure>
                     <p>
                         <em>Reference Error</em> means you need to define the variable or function. 
@@ -113,11 +89,14 @@
                     </p>
                     <img src="https://cdn.glitch.com/eea181be-12a8-4dfb-9200-096233b7a427%2Funcaught_error.png?v=1566406423323" alt="uncaught error message">
                 </figure>
-                
-            
+            </article>  
+            <hr>
+            <article>
+                <p>If you notice any typos, misspellings, or mistakes, please triple check your work and <a href="" target="_blank">open an issue on GitHub</a> citing both the line number and exercise number.</p>
+            </article>
         </section>
         <section class="correct">
-            <h3>Problems Correct</h3>
+            <h2>Problems Correct</h2>
             <ul></ul>
         </section>
     </main> 
