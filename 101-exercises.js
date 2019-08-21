@@ -2,21 +2,21 @@
 // If youi get a "TypeError" of any kind, it means that there is a data type mismatch. Check the data types.
 
 // Exercise #0, Example Problem:
-// Example problem setup: Create a variable named doingJavaScriptRightNow and assign it the boolean true.
-// The line below creates the variable named doingJavaScriptRightNow and assigns the boolean value true
+// Example problem setup: Create a variable named doingJSRightNow and assign it the boolean true.
+// The line below creates the variable named doingJSRightNow and assigns the boolean value true
 // To complete Exercise #0, uncomment the following line of JS
-// var doingJavaScriptRightNow = true
+// var doingJSRightNow = true
 
 // The lines below will test your answer. If you see an error, then it means that your answer is incorrect or incomplete.
-assert(doingJavaScriptRightNow, true, "a variable holding a true boolean value should be equal to true"); 
-addToDoneList("Exercise 0 is correct");
+assert(doingJSRightNow, true, "a variable holding a true boolean value should be equal to true"); 
+addToDone("Exercise 0 is correct");
 
 
 //  Exercise 1
 // On the line below, create a varia ble named onMarsRightNow and assign it the boolean value of false
 
 assert(onMarsRightNow, false, "If you see a Reference Error, be sure to create the variable and assign it a value.");
-addToDoneList("Exercise 1 is correct.");
+addToDone("Exercise 1 is correct.");
 
 // Exercise 2
 // Create a variable named fruits and assign it an array of strings containing the following fruits.
@@ -24,46 +24,46 @@ addToDoneList("Exercise 1 is correct.");
 var fruits = ["mango", "banana", "guava", "kiwi", "strawberry"]
 
 assert(fruits, ["mango", "banana", "guava", "kiwi", "strawberry"], "ensure the array variable contains all the strings in the provided order");
-addToDoneList("Exercise 2 is correct.");
+addToDone("Exercise 2 is correct.");
 
 //  Exercise 3
-//  Create a variable named vegetables and assign it a list of fruits containing the following vegetable names as strings: 
+//  Create a variable named vegetables and assign it an array of fruits containing the following vegetable names as strings: 
 //  eggplant, broccoli, carrot, cauliflower, and zucchini
 
 assert(vegetables, ["eggplant", "broccoli", "carrot", "cauliflower", "zucchini"], "Ensure the variable contains all the strings in the provided order");
-addToDoneList("Exercise 3 is correct.");
+addToDone("Exercise 3 is correct.");
 
 
 // Exercise 4
-// Create a variable named numbers and assign it a list of numbers, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+// Create a variable named numbers and assign it an array of numbers, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
 
 assert(numbers, [1, 2, 3, 4, 5, 6, 7, 8, 9, 10], "Ensure the variable contains the numbers 1-10 in order.");
-addToDoneList("Exercise 4 is correct.");
+addToDone("Exercise 4 is correct.");
 
 
 // Exercise 5
 // Add the string "tomato" to the end of the fruits array. 
-// *Hint* Recommend finding and using a built-in JS operation to add to a list rather than recreating the array.
+// *Hint* Recommend finding and using a built-in JS operation to add to an array rather than recreating the array.
 
 asset(fruits, ["mango", "banana", "guava", "kiwi", "strawberry", "tomato"], "Ensure the variable contains all the strings in the right order");
-addToDoneList("Exercise 5 is correct");
+addToDone("Exercise 5 is correct");
 
 // Exercise 6
-// Given the following assignment of the vegetables array, add "tomato" to the end of the list. 
-// Recommend using the built-in JS operation to add to a list.
+// Given the following assignment of the vegetables array, add "tomato" to the end of the array. 
+// Recommend using the built-in JS operation to add to an array.
 
 
 assert(vegetables,["eggplant", "broccoli", "carrot", "cauliflower", "zucchini", "tomato"], "Ensure the variable contains all the strings in the provided order");
-addToDoneList("Exercise 6 is correct")
+addToDone("Exercise 6 is correct")
 
 
 // Exercise 7
-// Given the list of numbers defined below, reverse the list of numbers that you created above. 
+// Given the array of numbers defined below, reverse the array of numbers that you created above. 
 numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 
 assert(numbers, [10, 9, 8, 7, 6, 5, 4, 3, 2, 1], "An Error means that the answer is incorrect.")
-addToDoneList("Exercise 7 is correct")
+addToDone("Exercise 7 is correct")
 
 
 
@@ -71,7 +71,7 @@ addToDoneList("Exercise 7 is correct")
 // Sort the vegetables in alphabetical order. Recommend finding a way to sort the array with a built-in method
 
 assert(vegetables, ['broccoli', 'carrot', 'cauliflower', 'eggplant', 'tomato', 'zucchini'])
-addToDoneList("Exercise 8 is correct.")
+addToDone("Exercise 8 is correct.")
 
 
 
@@ -79,14 +79,14 @@ addToDoneList("Exercise 8 is correct.")
 // Write the code necessary to sort the fruits in reverse alphabetical order
 
 assert(fruits, ['tomato', 'strawberry', 'mango', 'kiwi', 'guava', 'banana'])
-addToDoneList("Exercise 9 is correct.")
+addToDone("Exercise 9 is correct.")
 
 
 // Exercise 10
-// Write the code necessary to produce a single list that holds all fruits then all vegetables in the order as they were sorted above.
+// Write the code necessary to produce a single array that holds all fruits then all vegetables in the order as they were sorted above.
 
 assert(fruits_and_veggies, ['tomato', 'strawberry', 'mango', 'kiwi', 'guava', 'banana', 'broccoli', 'carrot', 'cauliflower', 'eggplant', 'tomato', 'zucchini'])
-addToDoneList("Exercise 10 is correct")
+addToDone("Exercise 10 is correct")
 
 // This function generates a random number that is both positive and even
 function randomPositiveEvenNumber() {
@@ -172,7 +172,7 @@ assert(addOne(2), 3, "Ensure that the function is defined, named properly, and r
 assert(addOne(0), 1, "Zero plus one is one.");
 assert(addOne(positiveEvenNumber), positiveEvenNumber + 1, "Ensure that the function is defined, named properly, and returns the correct value");
 assert(addOne(negativeOddNumber), negativeOddNumber + 1, "Ensure that the function is defined, named properly, and returns the correct value");
-addToDoneList("Exercise 11 is correct.")
+addToDone("Exercise 11 is correct.")
 
 
 // Exercise 12
@@ -184,7 +184,7 @@ assert(isPositive(positiveOddNumber), true, "Ensure that the function is defined
 assert(isPositive(positiveEvenNumber), true, "Ensure that the function is defined, named properly, and returns the correct value");
 assert(isPositive(negativeOddNumber), false, "Ensure that the function is defined, named properly, and returns the correct value");
 assert(isPositive(negativeEvenNumber), false, "Ensure that the function is defined, named properly, and returns the correct value");
-addToDoneList("Exercise 12 is correct.")
+addToDone("Exercise 12 is correct.")
 
 
 // Exercise 13
@@ -196,7 +196,7 @@ assert(isNegative(positiveOddNumber, false, "Ensure that the function is defined
 assert(isNegative(positiveEvenNumber, false, "Ensure that the function is defined, named properly, and returns the correct value");
 assert(isNegative(negativeOddNumber, true, "Ensure that the function is defined, named properly, and returns the correct value");
 assert(isNegative(negativeEvenNumber, true, "Ensure that the function is defined, named properly, and returns the correct value");
-addToDoneList("Exercise 13 is correct.")
+addToDone("Exercise 13 is correct.")
 
 
 // Exercise 14
@@ -206,7 +206,7 @@ assert(isOdd(positiveOddNumber), true, "Ensure that the function is defined, nam
 assert(isOdd(positiveEvenNumber), false, "Ensure that the function is defined, named properly, and returns the correct value");
 assert(isOdd(negativeOddNumber), true, "Ensure that the function is defined, named properly, and returns the correct value");
 assert(isOdd(negativeEvenNumber), false, "Ensure that the function is defined, named properly, and returns the correct value");
-addToDoneList("Exercise 14 is correct.")
+addToDone("Exercise 14 is correct.")
 
 // Exercise 15
 // Write a function definition named isEven that takes in a number and returns true or false if that number is even.
@@ -216,7 +216,7 @@ assert(isEven(positiveOddNumber), false, "Ensure that the function is defined, n
 assert(isEven(positiveEvenNumber), true, "Ensure that the function is defined, named properly, and returns the correct value");
 assert(isEven(negativeOddNumber), false, "Ensure that the function is defined, named properly, and returns the correct value");
 assert(isEven(negativeEvenNumber), true, "Ensure that the function is defined, named properly, and returns the correct value");
-addToDoneList("Exercise 15 is correct.")
+addToDone("Exercise 15 is correct.")
 
 
 // Exercise 16
@@ -228,7 +228,7 @@ assert(identity(positiveOddNumber), positiveOddNumber, "Ensure that the function
 assert(identity(positiveEvenNumber), positiveEvenNumber, "Ensure that the function is defined, named properly, and returns the correct value");
 assert(identity(negativeOddNumber), negativeOddNumber, "Ensure that the function is defined, named properly, and returns the correct value");
 assert(identity(negativeEvenNumber), negativeEvenNumber, "Ensure that the function is defined, named properly, and returns the correct value");
-addToDoneList("Exercise 16 is correct.")
+addToDone("Exercise 16 is correct.")
 
 
 // Exercise 17
@@ -241,7 +241,7 @@ assert(isPositiveOdd(positiveOddNumber), true, "Double check your syntax and log
 assert(isPositiveOdd(positiveEvenNumber), false, "Double check your syntax and logic");
 assert(isPositiveOdd(negativeOddNumber), false, "Double check your syntax and logic");
 assert(isPositiveOdd(negativeEvenNumber), false, "Double check your syntax and logic");
-addToDoneList("Exercise 17 is correct.")
+addToDone("Exercise 17 is correct.")
 
 
 // Exercise 18
@@ -252,7 +252,7 @@ assert(isPositiveEven(positiveOddNumber), false, "Double check your syntax and l
 assert(isPositiveEven(positiveEvenNumber), true, "Double check your syntax and logic");
 assert(isPositiveEven(negativeOddNumber), false, "Double check your syntax and logic");
 assert(isPositiveEven(negativeEvenNumber), false, "Double check your syntax and logic");
-addToDoneList("Exercise 18 is correct.")
+addToDone("Exercise 18 is correct.")
 
 
 // Exercise 19
@@ -263,7 +263,7 @@ assert(isNegativeOdd(positiveOddNumber), false, "Double check your syntax and lo
 assert(isNegativeOdd(positiveEvenNumber), false, "Double check your syntax and logic");
 assert(isNegativeOdd(negativeOddNumber), true, "Double check your syntax and logic");
 assert(isNegativeOdd(negativeEvenNumber), false, "Double check your syntax and logic");
-addToDoneList("Exercise 19 is correct.")
+addToDone("Exercise 19 is correct.")
 
 
 // Exercise 20
@@ -274,7 +274,7 @@ assert(isNegativeEven(positiveOddNumber), false, "Double check your syntax and l
 assert(isNegativeEven(positiveEvenNumber), false, "Double check your syntax and logic");
 assert(isNegativeEven(negativeOddNumber), false, "Double check your syntax and logic");
 assert(isNegativeEven(negativeEvenNumber), true, "Double check your syntax and logic");
-addToDoneList("Exercise 20 is correct.")
+addToDone("Exercise 20 is correct.")
 
 
 
@@ -287,7 +287,7 @@ assert(half(positiveOddNumber), positiveOddNumber / 2);
 assert(half(positiveEvenNumber), positiveEvenNumber / 2);
 assert(half(negativeOddNumber), negativeOddNumber / 2);
 assert(half(negativeEvenNumber), negativeEvenNumber / 2);
-addToDoneList("Exercise 21 is correct.")
+addToDone("Exercise 21 is correct.")
 
 
 
@@ -300,7 +300,7 @@ assert(double(positiveOddNumber), positiveOddNumber * 2)
 assert(double(positiveEvenNumber), positiveEvenNumber * 2)
 assert(double(negativeOddNumber), negativeOddNumber * 2)
 assert(double(negativeEvenNumber), negativeEvenNumber * 2)
-addToDoneList("Exercise 22 is correct.")
+addToDone("Exercise 22 is correct.")
 
 
 
@@ -313,7 +313,7 @@ assert(triple(positiveOddNumber), positiveOddNumber * 3);
 assert(triple(positiveEvenNumber), positiveEvenNumber * 3);
 assert(triple(negativeOddNumber), negativeOddNumber * 3);
 assert(triple(negativeEvenNumber), negativeEvenNumber * 3);
-addToDoneList("Exercise 23 is correct.")
+addToDone("Exercise 23 is correct.")
 
 
 
@@ -326,7 +326,7 @@ assert(reverse_sign(positiveOddNumber), positiveOddNumber * -1);
 assert(reverse_sign(positiveEvenNumber), positiveEvenNumber * -1);
 assert(reverse_sign(negativeOddNumber), negativeOddNumber * -1);
 assert(reverse_sign(negativeEvenNumber), negativeEvenNumber * -1);
-addToDoneList("Exercise 24 is correct.")
+addToDone("Exercise 24 is correct.")
 
 
 
@@ -339,7 +339,7 @@ assert(absolute_value(positiveOddNumber), positiveOddNumber);
 assert(absolute_value(positiveEvenNumber), positiveEvenNumber);
 assert(absolute_value(negativeOddNumber), negativeOddNumber * -1);
 assert(absolute_value(negativeEvenNumber), negativeEvenNumber * -1);
-addToDoneList("Exercise 25 is correct.")
+addToDone("Exercise 25 is correct.")
 
 
 
@@ -351,7 +351,7 @@ assert(is_multiple_of_three(15), true);
 assert(is_multiple_of_three(9), true);
 assert(is_multiple_of_three(4), false);
 assert(is_multiple_of_three(10), false);
-addToDoneList("Exercise 26 is correct.")
+addToDone("Exercise 26 is correct.")
 
 
 
@@ -364,7 +364,7 @@ assert(is_multiple_of_five(15), true);
 assert(is_multiple_of_five(9), false);
 assert(is_multiple_of_five(4), false);
 assert(is_multiple_of_five(10), true);
-addToDoneList("Exercise 27 is correct.")
+addToDone("Exercise 27 is correct.")
 
 
 
@@ -376,7 +376,7 @@ assert(is_multiple_of_both_three_and_five(45), true);
 assert(is_multiple_of_both_three_and_five(3), false);
 assert(is_multiple_of_both_three_and_five(9), false);
 assert(is_multiple_of_both_three_and_five(4), false);
-addToDoneList("Exercise 28 is correct.")
+addToDone("Exercise 28 is correct.")
 
 
 
@@ -388,7 +388,7 @@ assert(square(3), 9);
 assert(square(2), 4);
 assert(square(9), 81);
 assert(square(positiveOddNumber), positiveOddNumber * positiveOddNumber);
-addToDoneList("Exercise 29 is correct.")
+addToDone("Exercise 29 is correct.")
 
 
 
@@ -399,7 +399,7 @@ addToDoneList("Exercise 29 is correct.")
 assert(add(3, 2), 5);
 assert(add(10, -2), 8);
 assert(add(5, 7), 12);
-addToDoneList("Exercise 30 is correct.")
+addToDone("Exercise 30 is correct.")
 
 
 
@@ -410,7 +410,7 @@ assert(cube(3), 27);
 assert(cube(2), 8);
 assert(cube(5), 125);
 assert(cube(positiveOddNumber), positiveOddNumber * positiveOddNumber * positiveOddNumber);
-addToDoneList("Exercise 31 is correct.")
+addToDone("Exercise 31 is correct.")
 
 
 
@@ -421,7 +421,7 @@ addToDoneList("Exercise 31 is correct.")
 assert(square_root(4), 2.0);
 assert(square_root(64), 8.0);
 assert(square_root(81), 9.0);
-addToDoneList("Exercise 32 is correct.")
+addToDone("Exercise 32 is correct.")
 
 
 
@@ -433,7 +433,7 @@ addToDoneList("Exercise 32 is correct.")
 assert(subtract(8, 6), 2);
 assert(subtract(27, 4), 23);
 assert(subtract(12, 2), 10);
-addToDoneList("Exercise 33 is correct.")
+addToDone("Exercise 33 is correct.")
 
 
 
@@ -443,7 +443,7 @@ addToDoneList("Exercise 33 is correct.")
 assert(multiply(2, 1), 2);
 assert(multiply(3, 5), 15);
 assert(multiply(5, 2), 10);
-addToDoneList("Exercise 34 is correct.")
+addToDone("Exercise 34 is correct.")
 
 
 
@@ -455,7 +455,7 @@ assert(divide(27, 9), 3);
 assert(divide(15, 3), 5);
 assert(divide(5, 2), 2.5);
 assert(divide(10, 2), 5);
-addToDoneList("Exercise 35 is correct.")
+addToDone("Exercise 35 is correct.")
 
 
 // Exercise 36
@@ -464,7 +464,7 @@ addToDoneList("Exercise 35 is correct.")
 assert(quotient(27, 9), 3)
 assert(quotient(5, 2), 2)
 assert(quotient(10, 3), 3)
-addToDoneList("Exercise 36 is correct.")
+addToDone("Exercise 36 is correct.")
 
 
 // Exercise 37
@@ -473,7 +473,7 @@ addToDoneList("Exercise 36 is correct.")
 assert(remainder(3, 3), 0);
 assert(remainder(5, 2), 1);
 assert(remainder(7, 5), 2);
-addToDoneList("Exercise 37 is correct.")
+addToDone("Exercise 37 is correct.")
 
 
 
@@ -483,7 +483,7 @@ addToDoneList("Exercise 37 is correct.")
 assert(sum_of_squares(3, 2), 13);
 assert(sum_of_squares(5, 2), 29);
 assert(sum_of_squares(2, 4), 20);
-addToDoneList("Exercise 38 is correct.")
+addToDone("Exercise 38 is correct.")
 
 
 
@@ -495,7 +495,7 @@ assert(times_two_plus_three(1), 5);
 assert(times_two_plus_three(2), 7);
 assert(times_two_plus_three(3), 9);
 assert(times_two_plus_three(5), 13);
-addToDoneList("Exercise 39 is correct.")
+addToDone("Exercise 39 is correct.")
 
 
 // Exercise 40
@@ -505,7 +505,7 @@ assert(area_of_rectangle(1, 3), 3);
 assert(area_of_rectangle(5, 2), 10);
 assert(area_of_rectangle(2, 7), 14);
 assert(area_of_rectangle(5.3, 10.3), 54.59);
-addToDoneList("Exercise 40 is correct.")
+addToDone("Exercise 40 is correct.")
 
 
 
@@ -516,7 +516,7 @@ addToDoneList("Exercise 40 is correct.")
 assert(areaOfCircle(3), 28.274333882308138);
 assert(areaOfCircle(5), 78.53981633974483);
 assert(areaOfCircle(7), 153.93804002589985);
-addToDoneList("Exercise 41 is correct.")
+addToDone("Exercise 41 is correct.")
 
 
 // Exercise 42
@@ -525,7 +525,7 @@ addToDoneList("Exercise 41 is correct.")
 assert(circumference(3), 18.84955592153876);
 assert(circumference(5), 31.41592653589793);
 assert(circumference(7), 43.982297150257104);
-addToDoneList("Exercise 42 is correct.")
+addToDone("Exercise 42 is correct.")
 
 
 
@@ -537,7 +537,7 @@ assert(isVowel("U"), true);
 assert(isVowel("banana"), false);
 assert(isVowel("Q"), false);
 assert(isVowel("y"), false);
-addToDoneList("Exercise 43 is correct.")
+addToDone("Exercise 43 is correct.")
 
 
 // Exercise 44
@@ -547,7 +547,7 @@ assert hasVowels("banana") == true
 assert hasVowels("ubuntu") == true
 assert hasVowels("QQQQ") == false
 assert hasVowels("wyrd") == false
-addToDoneList("Exercise 44 is correct.")
+addToDone("Exercise 44 is correct.")
 
 
 // Exercise 45
@@ -558,7 +558,7 @@ assert(countVowels("ubuntu"), 3)
 assert(countVowels("mango"), 2)
 assert(countVowels("QQQQ"), 0)
 assert(countVowels("wyrd"), 0)
-addToDoneList("Exercise 45 is correct.")
+addToDone("Exercise 45 is correct.")
 
 
 // Exercise 46
@@ -568,7 +568,7 @@ assert(removeVowels("banana"), "bnn");
 assert(removeVowels("ubuntu"), "bnt");
 assert(removeVowels("mango"), "mng");
 assert(removeVowels("QQQQ"), "QQQQ");
-addToDoneList("Exercise 46 is correct.")
+addToDone("Exercise 46 is correct.")
 
 
 // Exercise 47
@@ -577,7 +577,7 @@ addToDoneList("Exercise 46 is correct.")
 assert(startsWithVowel("ubuntu"), true);
 assert(startsWithVowel("banana"), false);
 assert(startsWithVowel("mango"), false);
-addToDoneList("Exercise 47 is correct.")
+addToDone("Exercise 47 is correct.")
 
 
 // Exercise 48
@@ -588,7 +588,7 @@ assert(endsWithVowel("ubuntu") == true);
 assert(endsWithVowel("banana") == true);
 assert(endsWithVowel("mango") == true);
 assert(endsWithVowel("spinach") == false);
-addToDoneList("Exercise 48 is correct.")
+addToDone("Exercise 48 is correct.")
 
 
 // Exercise 49
@@ -597,7 +597,7 @@ addToDoneList("Exercise 48 is correct.")
 assert(startsAndEndsWithVowel("ubuntu") == true);
 assert(startsAndEndsWithVowel("banana") == false);
 assert(startsAndEndsWithVowel("mango") == false);
-addToDoneList("Exercise 49 is correct.")
+addToDone("Exercise 49 is correct.")
 
 
 // Exercise 50
@@ -606,7 +606,7 @@ addToDoneList("Exercise 49 is correct.")
 assert(first("ubuntu"), "u");
 assert(first([1, 2, 3]), 1);
 assert(first(["python", "is", "awesome"]), "python");
-addToDoneList("Exercise 50 is correct.")
+addToDone("Exercise 50 is correct.")
 
 
 
@@ -617,7 +617,7 @@ addToDoneList("Exercise 50 is correct.")
 assert(second("ubuntu"), "b");
 assert(second([1, 2, 3]), 2);
 assert(second(["python", "is", "awesome"]), "is");
-addToDoneList("Exercise 51 is correct.")
+addToDone("Exercise 51 is correct.")
 
 
 // Exercise 52
@@ -626,7 +626,7 @@ addToDoneList("Exercise 51 is correct.")
 assert(third("ubuntu"), "u");
 assert(third([1, 2, 3]), 3);
 assert(third(["python", "is", "awesome"]), "awesome");
-addToDoneList("Exercise 52 is correct.")
+addToDone("Exercise 52 is correct.")
 
 
 // Exercise 53
@@ -635,7 +635,7 @@ addToDoneList("Exercise 52 is correct.")
 assert(forth("ubuntu"), "n");
 assert(forth([1, 2, 3, 4]), 4);
 assert(forth(["python", "is", "awesome", "right?"]), "right?");
-addToDoneList("Exercise 53 is correct.")
+addToDone("Exercise 53 is correct.")
 
 
 // Exercise 54
@@ -645,7 +645,7 @@ assert(last("ubuntu"), "u");
 assert(last([1, 2, 3, 4]), 4);
 assert(last(["python", "is", "awesome"]), "awesome");
 assert(last(["kiwi", "mango", "guava"]), "guava");
-addToDoneList("Exercise 54 is correct.")
+addToDone("Exercise 54 is correct.")
 
 
 // Exercise 55
@@ -655,7 +655,7 @@ assert(secondToLast("ubuntu"), "t");
 assert(secondToLast([1, 2, 3, 4]), 3);
 assert(secondToLast(["python", "is", "awesome"]), "is");
 assert(secondToLast(["kiwi", "mango", "guava"]), "mango");
-addToDoneList("Exercise 55 is correct.")
+addToDone("Exercise 55 is correct.")
 
 
 // Exercise 56
@@ -665,25 +665,25 @@ assert(thirdToLast("ubuntu"), "n");
 assert(thirdToLast([1, 2, 3, 4]), 2);
 assert(thirdToLast(["python", "is", "awesome"]), "python");
 assert(thirdToLast(["strawberry", "kiwi", "mango", "guava"]), "kiwi");
-addToDoneList("Exercise 56 is correct.")
+addToDone("Exercise 56 is correct.")
 
 
 // Exercise 57
-// Write a function definition named firstAndSecond that takes in sequence and returns the first and second value of that sequence as a list
+// Write a function definition named firstAndSecond that takes in sequence and returns the first and second value of that sequence as an array
 
 assert(firstAndSecond([1, 2, 3, 4]), [1, 2]);
 assert(firstAndSecond(["python", "is", "awesome"]), ["python", "is"]);
 assert(firstAndSecond(["strawberry", "kiwi", "mango", "guava"]), ["strawberry", "kiwi"]);
-addToDoneList("Exercise 57 is correct.")
+addToDone("Exercise 57 is correct.")
 
 
 // Exercise 58
-// Write a function definition named firstAndLast that takes in sequence and returns the first and last value of that sequence as a list
+// Write a function definition named firstAndLast that takes in sequence and returns the first and last value of that sequence as an array
 
 assert(firstAndLast([1, 2, 3, 4]), [1, 4]);
 assert(firstAndLast(["python", "is", "awesome"]), ["python", "awesome"]);
 assert(firstAndLast(["strawberry", "kiwi", "mango", "guava"]), ["strawberry", "guava"]);
-addToDoneList("Exercise 58 is correct.")
+addToDone("Exercise 58 is correct.")
 
 
 
@@ -693,7 +693,7 @@ addToDoneList("Exercise 58 is correct.")
 assert(firstToLast([1, 2, 3, 4]), [2, 3, 4, 1]);
 assert(firstToLast(["python", "is", "awesome"]), ["is", "awesome", "python"]);
 assert(firstToLast(["strawberry", "kiwi", "mango", "guava"]), ["kiwi", "mango", "guava", "strawberry"]);
-addToDoneList("Exercise 59 is correct.")
+addToDone("Exercise 59 is correct.")
 
 
 
@@ -703,7 +703,7 @@ addToDoneList("Exercise 59 is correct.")
 assert(sumAll([1, 2, 3, 4]), 10);
 assert(sumAll([3, 3, 3]), 9);
 assert(sumAll([0, 5, 6]), 11);
-addToDoneList("Exercise 60 is correct.")
+addToDone("Exercise 60 is correct.")
 
 
 
@@ -713,7 +713,7 @@ addToDoneList("Exercise 60 is correct.")
 assert(mean([1, 2, 3, 4]), 2.5);
 assert(mean([3, 3, 3]), 3);
 assert(mean([1, 5, 6]), 4);
-addToDoneList("Exercise 61 is correct.")
+addToDone("Exercise 61 is correct.")
 
 
 
@@ -724,7 +724,7 @@ assert(median([1, 2, 3, 4, 5]), 3.0);
 assert(median([1, 2, 3]), 2.0);
 assert(median([1, 5, 6]), 5.0);
 assert(median([1, 2, 5, 6]), 3.5);
-addToDoneList("Exercise 62 is correct.")
+addToDone("Exercise 62 is correct.")
 
 
 // Exercise 63
@@ -733,7 +733,7 @@ addToDoneList("Exercise 62 is correct.")
 assert(mode([1, 2, 2, 3, 4]), 2);
 assert(mode([1, 1, 2, 3]), 1);
 assert(mode([2, 2, 3, 3, 3]), 3);
-addToDoneList("Exercise 63 is correct.")
+addToDone("Exercise 63 is correct.")
 
 
 // Exercise 64
@@ -742,7 +742,7 @@ addToDoneList("Exercise 63 is correct.")
 assert(productOfAll([1, 2, 3]), 6);
 assert(productOfAll([3, 4, 5]), 60);
 assert(productOfAll([2, 2, 3, 0]), 0);
-addToDoneList("Exercise 64 is correct.")
+addToDone("Exercise 64 is correct.")
 
 
 // Keep this variable assignment for the next few problems
@@ -755,7 +755,7 @@ numbers = [-5, -4, -3, -2, -1, 1, 2, 3, 4, 5]
 assert(getHighestNumber([1, 2, 3]), 3);
 assert(getHighestNumber([-5, -4, -3, -2, -1, 1, 2, 3, 4, 5]), 5);
 assert(getHighestNumber([-5, -3, 1]), 1);
-addToDoneList("Exercise 65 is correct.")
+addToDone("Exercise 65 is correct.")
 
 
 
@@ -766,44 +766,44 @@ addToDoneList("Exercise 65 is correct.")
 assert(getSmallestNumber([1, 2, 3]), 1);
 assert(getSmallestNumber([-5, -4, -3, -2, -1, 1, 2, 3, 4, 5]), -5);
 assert(getSmallestNumber([-4, -3, 1]), -4);
-addToDoneList("Exercise 66 is correct.")
+addToDone("Exercise 66 is correct.")
 
 
 // Exercise 67
-// Write a function definition named onlyOddNumbers that takes in sequence of numbers and returns the odd numbers in a list.
+// Write a function definition named onlyOddNumbers that takes in sequence of numbers and returns the odd numbers in an array.
 
 assert(onlyOddNumbers([1, 2, 3]), [1, 3]);
 assert(onlyOddNumbers([-5, -4, -3, -2, -1, 1, 2, 3, 4, 5]), [-5, -3, -1, 1, 3, 5]);
 assert(onlyOddNumbers([-4, -3, 1]), [-3, 1]);
-addToDoneList("Exercise 67 is correct.")
+addToDone("Exercise 67 is correct.")
 
 
 
 // Exercise 68
-// Write a function definition named onlyEvenNumbers that takes in sequence of numbers and returns the even numbers in a list.
+// Write a function definition named onlyEvenNumbers that takes in sequence of numbers and returns the even numbers in an array.
 
 assert(onlyEvenNumbers([1, 2, 3]), [2]);
 assert(onlyEvenNumbers([-5, -4, -3, -2, -1, 1, 2, 3, 4, 5]), [-4, -2, 2, 4]);
 assert(onlyEvenNumbers([-4, -3, 1]), [-4]);
-addToDoneList("Exercise 68 is correct.")
+addToDone("Exercise 68 is correct.")
 
 
 // Exercise 69
-// Write a function definition named onlyPositiveNumbers that takes in sequence of numbers and returns the positive numbers in a list.
+// Write a function definition named onlyPositiveNumbers that takes in sequence of numbers and returns the positive numbers in an array.
 
 assert(onlyPositiveNumbers([1, 2, 3]), [1, 2, 3]);
 assert(onlyPositiveNumbers([-5, -4, -3, -2, -1, 1, 2, 3, 4, 5]), [1, 2, 3, 4, 5]);
 assert(onlyPositiveNumbers([-4, -3, 1]), [1]);
-addToDoneList("Exercise 69 is correct.")
+addToDone("Exercise 69 is correct.")
 
 
 // Exercise 70
-// Write a function definition named onlyNegativeNumbers that takes in sequence of numbers and returns the negative numbers in a list.
+// Write a function definition named onlyNegativeNumbers that takes in sequence of numbers and returns the negative numbers in an array.
 
 assert(onlyNegativeNumbers([1, 2, 3]), []);
 assert(onlyNegativeNumbers([-5, -4, -3, -2, -1, 1, 2, 3, 4, 5]), [-5, -4, -3, -2, -1]);
 assert(onlyNegativeNumbers([-4, -3, 1]), [-4, -3]);
-addToDoneList("Exercise 70 is correct.");
+addToDone("Exercise 70 is correct.");
 
 
 
@@ -814,7 +814,7 @@ assert(hasEvens([1, 2, 3]), true);
 assert(hasEvens([2, 5, 6]), true);
 assert(hasEvens([3, 3, 3]), false);
 assert(hasEvens([]), false);
-addToDoneList("Exercise 71 is correct.");
+addToDone("Exercise 71 is correct.");
 
 
 
@@ -825,7 +825,7 @@ assert(countEvens([1, 2, 3]), 1);
 assert(countEvens([2, 5, 6]), 2);
 assert(countEvens([3, 3, 3]), 0);
 assert(countEvens([5, 6, 7, 8] ), 2);
-addToDoneList("Exercise 72 is correct.")
+addToDone("Exercise 72 is correct.")
 
 
 // Exercise 73
@@ -835,7 +835,7 @@ assert(hasOdds([1, 2, 3]), true);
 assert(hasOdds([2, 5, 6]), true);
 assert(hasOdds([3, 3, 3]), true);
 assert(hasOdds([2, 4, 6]), false);
-addToDoneList("Exercise 73 is correct.")
+addToDone("Exercise 73 is correct.")
 
 
 // Exercise 74
@@ -845,7 +845,7 @@ assert(countOdds([1, 2, 3]), 2);
 assert(countOdds([2, 5, 6]), 1);
 assert(countOdds([3, 3, 3]), 3);
 assert(countOdds([2, 4, 6]), 0);
-addToDoneList("Exercise 74 is correct.")
+addToDone("Exercise 74 is correct.")
 
 
 // Exercise 75
@@ -854,7 +854,7 @@ addToDoneList("Exercise 74 is correct.")
 assert(countNegatives([1, -2, 3]), 1);
 assert(countNegatives([2, -5, -6]), 2);
 assert(countNegatives([3, 3, 3]), 0);
-addToDoneList("Exercise 75 is correct.")
+addToDone("Exercise 75 is correct.")
 
 
 // Exercise 76
@@ -864,76 +864,76 @@ assert(countPositives([1, -2, 3]), 2);
 assert(countPositives([2, -5, -6]), 1);
 assert(countPositives([3, 3, 3]), 3);
 assert(countPositives([-2, -1, -5]), 0);
-addToDoneList("Exercise 76 is correct.")
+addToDone("Exercise 76 is correct.")
 
 
 // Exercise 77
-// Write a function definition named onlyPositiveEvens that takes in sequence of numbers and returns a list containing all the positive evens from the sequence
+// Write a function definition named onlyPositiveEvens that takes in sequence of numbers and returns an array containing all the positive evens from the sequence
 
 assert(onlyPositiveEvens([1, -2, 3]), []);
 assert(onlyPositiveEvens([2, -5, -6]), [2]);
 assert(onlyPositiveEvens([3, 3, 4, 6]), [4, 6]);
 assert(onlyPositiveEvens([2, 3, 4, -1, -5]), [2, 4]);
-addToDoneList("Exercise 77 is correct.")
+addToDone("Exercise 77 is correct.")
 
 
 // Exercise 78
-// Write a function definition named onlyPositiveOdds that takes in sequence of numbers and returns a list containing all the positive odd numbers from the sequence
+// Write a function definition named onlyPositiveOdds that takes in sequence of numbers and returns an array containing all the positive odd numbers from the sequence
 
 assert(onlyPositiveOdds([1, -2, 3]), [1, 3]);
 assert(onlyPositiveOdds([2, -5, -6]), []);
 assert(onlyPositiveOdds([3, 3, 4, 6]), [3, 3]);
 assert(onlyPositiveOdds([2, 3, 4, -1, -5]), [3]);
-addToDoneList("Exercise 78 is correct.")
+addToDone("Exercise 78 is correct.")
 
 
 // Exercise 79
-// Write a function definition named onlyNegativeEvens that takes in sequence of numbers and returns a list containing all the negative even numbers from the sequence
+// Write a function definition named onlyNegativeEvens that takes in sequence of numbers and returns an array containing all the negative even numbers from the sequence
 
 assert(onlyNegativeEvens([1, -2, 3]), [-2]);
 assert(onlyNegativeEvens([2, -5, -6]), [-6]);
 assert(onlyNegativeEvens([3, 3, 4, 6]), []);
 assert(onlyNegativeEvens([-2, 3, 4, -1, -4]), [-2, -4]);
-addToDoneList("Exercise 79 is correct.")
+addToDone("Exercise 79 is correct.")
 
 
 // Exercise 80
-// Write a function definition named onlyNegativeOdds that takes in sequence of numbers and returns a list containing all the negative odd numbers from the sequence
+// Write a function definition named onlyNegativeOdds that takes in sequence of numbers and returns an array containing all the negative odd numbers from the sequence
 
 assert(onlyNegativeOdds([1, -2, 3]), []);
 assert(onlyNegativeOdds([2, -5, -6]), [-5]);
 assert(onlyNegativeOdds([3, 3, 4, 6]), []);
 assert(onlyNegativeOdds([2, -3, 4, -1, -4]), [-3, -1]);
-addToDoneList("Exercise 80 is correct.")
+addToDone("Exercise 80 is correct.")
 
 
 // Exercise 81
-// Write a function definition named shortestString that takes in a list of strings and returns the shortest string in the list.
+// Write a function definition named shortestString that takes in an array of strings and returns the shortest string in the array.
 
 assert(shortestString(["kiwi", "mango", "strawberry"]), "kiwi");
 assert(shortestString(["hello", "everybody"]), "hello");
 assert(shortestString(["mary", "had", "a", "little", "lamb"]), "a");
-addToDoneList("Exercise 81 is correct.")
+addToDone("Exercise 81 is correct.")
 
 
 // Exercise 82
-// Write a function definition named longestString that takes in sequence of strings and returns the longest string in the list.
+// Write a function definition named longestString that takes in sequence of strings and returns the longest string in the array.
 
 assert(longestString(["kiwi", "mango", "strawberry"]), "strawberry");
 assert(longestString(["hello", "everybody"]), "everybody");
 assert(longestString(["mary", "had", "a", "little", "lamb"]), "little");
-addToDoneList("Exercise 82 is correct.")
+addToDone("Exercise 82 is correct.")
 
 // *hint* for the next few exercises, consider using sets - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set
 // If you've got a set and need to convert it back into an array, do a search for "convert a set into an array in JavaScript"
 
 // Exercise 83
-// Write a function definition named getUniqueValues that takes in a list and returns a set with only the unique values from that list.
+// Write a function definition named getUniqueValues that takes in an array and returns a set with only the unique values from that array.
 
 assert(getUniqueValues(["ant", "ant", "mosquito", "mosquito", "ladybug"]), ["ant", "mosquito", "ladybug"]);
 assert(getUniqueValues(["b", "a", "n", "a", "n", "a", "s"]), ["b", "a", "n", "s"]);
 assert(getUniqueValues(["mary", "had", "a", "little", "lamb", "little", "lamb", "little", "lamb"]), ["mary", "had", "a", "little", "lamb"]);
-addToDoneList("Exercise 83 is correct.")
+addToDone("Exercise 83 is correct.")
 
 
 // Exercise 84
@@ -943,27 +943,27 @@ addToDoneList("Exercise 83 is correct.")
 assert(getUniqueValuesFromTwoLists([5, 1, 2, 3], [3, 4, 5, 5]), [1, 2, 3, 4, 5]);
 assert(getUniqueValuesFromTwoLists([1, 1], [2, 2, 3]), [1, 2, 3]);
 assert(getUniqueValuesFromTwoLists(["tomato", "mango", "kiwi"], ["eggplant", "tomato", "broccoli"]), ["tomato", "mango", "kiwi", "eggplant", "broccoli"]);
-addToDoneList("Exercise 84 is correct.")
+addToDone("Exercise 84 is correct.")
 
 
 // Exercise 85
-// Write a function definition named getValuesInCommon that takes two lists and returns a single array with the values that each list has in common
+// Write a function definition named getValuesInCommon that takes two arrays and returns a single array with the values that each array has in common
 
 
 assert(getValuesInCommon([5, 1, 2, 3], [3, 4, 5, 5]), [3, 5]);
 assert(getValuesInCommon([1, 2], [2, 2, 3]), [2]);
 assert(getValuesInCommon(["tomato", "mango", "kiwi"], ["eggplant", "tomato", "broccoli"]), ["tomato"]);
-addToDoneList("Exercise 85 is correct.")
+addToDone("Exercise 85 is correct.")
 
 
 
 // Exercise 86
-// Write a function definition named get_values_not_in_common that takes two lists and returns a single array with the values that each list does not have in common
+// Write a function definition named get_values_not_in_common that takes two arrays and returns a single array with the values that each array does not have in common
 
 assert(get_values_not_in_common([5, 1, 2, 3], [3, 4, 5, 5]), [1, 2, 4]);
 assert(get_values_not_in_common([1, 1], [2, 2, 3]), [1, 2, 3]);
 assert(get_values_not_in_common(["tomato", "mango", "kiwi"], ["eggplant", "tomato", "broccoli"]), ["mango", "kiwi", "eggplant", "broccoli"]);
-addToDoneList("Exercise 86 is correct.")
+addToDone("Exercise 86 is correct.")
 
 
 // Working with JS Objects
@@ -989,7 +989,7 @@ thomas_paper = {
 
 assert(getPaperTitle(tukey_paper), "The Future of Data Analysis");
 assert(getPaperTitle(thomas_paper), "A mathematical model of glutathione metabolism");
-addToDoneList("Exercise 87 is correct.")
+addToDone("Exercise 87 is correct.")
 
 // this code defines a JS object with information about a book.
 book = {
@@ -1002,7 +1002,7 @@ book = {
 // Write a function named getPrice that takes in a object and returns the price
 
 assert(getPrice(book), 36.99);
-addToDoneList("Exercise 89 is complete.")
+addToDone("Exercise 89 is complete.")
 
 
 
@@ -1011,7 +1011,7 @@ addToDoneList("Exercise 89 is complete.")
 
 
 assert(getBookAuthor(book), "Frances Buontempo");
-addToDoneList("Exercise 90 is complete.")
+addToDone("Exercise 90 is complete.")
 
 
 // The next exercises work with a arrays of objects.
@@ -1045,7 +1045,7 @@ books = [
 // Write a function named get_numberOfBooks that takes in a array of objects and returns the number of objects in that array.
 
 assert(get_numberOfBooks(books), 4);
-addToDoneList("Exercise 91 is complete.")
+addToDone("Exercise 91 is complete.")
 
 
 
@@ -1053,14 +1053,14 @@ addToDoneList("Exercise 91 is complete.")
 // Write a function named totalOfBookPrices that takes in a array of objects and returns the sum total of all the book prices added together
 
 assert(totalOfBookPrices(books), 122.9)
-addToDoneList("Exercise 92 is complete.")
+addToDone("Exercise 92 is complete.")
 
 
 // Exercise 93
-// Write a function named getAverageBookPrice that takes in a array of dictionaries and returns the average book price.
+// Write a function named getAverageBookPrice that takes in a array of objects and returns the average book price.
 
 assert(getAverageBookPrice(books), 30.725);
-addToDoneList("Exercise 93 is complete.")
+addToDone("Exercise 93 is complete.")
 
 
 // Exercise 94
@@ -1073,13 +1073,13 @@ assert(highestPriceBook(books), {
     "author": "Edward Tufte"
 });
 
-addToDoneList("Exercise 94 is complete")
+addToDone("Exercise 94 is complete")
 
 
 
 // Exercise 95
-// Write a function called lowestPriceBook that takes in the above defined list of dictionaries "books" and returns the object containing the title, price, and author of the book with the lowest priced book.
-// Hint: Much like sometimes start functions with a variable set to zero or float('inf'), you may want to create a object with the price set to float('inf') to compare to each object in the list
+// Write a function called lowestPriceBook that takes in the above defined array of objects "books" and returns the object containing the title, price, and author of the book with the lowest priced book.
+// Hint: Much like sometimes start functions with a variable set to zero or float('inf'), you may want to create a object with the price set to float('inf') to compare to each object in the array
 
 
 assert(lowestPriceBook(books), {
@@ -1087,7 +1087,7 @@ assert(lowestPriceBook(books), {
     "author": "Cathy O'Neil",
     "price": 17.44
 });
-addToDoneList("Exercise 95 is complete.")
+addToDone("Exercise 95 is complete.")
 
 
 const shopping_cart = {
@@ -1127,7 +1127,7 @@ const shopping_cart = {
 // Hint: How do you access a key's value on a object? The tax rate is one key of the entire shopping_cart object.
 
 assert(getTaxRate(shopping_cart), .08);
-addToDoneList("Exercise 96 is complete")
+addToDone("Exercise 96 is complete")
 
 
 
@@ -1136,7 +1136,7 @@ addToDoneList("Exercise 96 is complete")
 // We're not yet using the quantity of each item, but rather focusing on determining how many different types of items are in the cart.
 
 assert(numberOfItemTypes(shopping_cart), 5);
-addToDoneList("Exercise 97 is complete.")
+addToDone("Exercise 97 is complete.")
 
 
 
@@ -1145,7 +1145,7 @@ addToDoneList("Exercise 97 is complete.")
 // This should return the sum of all of the quantities from each item type
 
 assert(totalNumberOfItems(shopping_cart), 17);
-addToDoneList("Exercise 98 is complete.")
+addToDone("Exercise 98 is complete.")
 
 
 
@@ -1154,7 +1154,7 @@ addToDoneList("Exercise 98 is complete.")
 // Hint - This should determine the total price divided by the number of types of items. This does not account for each item type's quantity.\
 
 assert(getAverageItemPrice(shopping_cart), 2.1420000000000003);
-addToDoneList("Exercise 99 is complete.")
+addToDone("Exercise 99 is complete.")
 
 
 
@@ -1163,7 +1163,7 @@ addToDoneList("Exercise 99 is complete.")
 // Hint: You may need to set an initial total price and total total quantity to zero, then sum up and divide that total price by the total quantity
 
 assert(getAverageSpentPerItem(shopping_cart), 1.333529411764706);
-addToDoneList("Exercise 100 is complete.")
+addToDone("Exercise 100 is complete.")
 
 
 // Exercise 101
@@ -1177,4 +1177,4 @@ assert(most_spent_on_item(shopping_cart), {
     "price": 0.75,
     "quantity": 9
 });
-addToDoneList("Exercise 101 is complete.")
+addToDone("Exercise 101 is complete.")
