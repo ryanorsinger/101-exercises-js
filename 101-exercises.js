@@ -180,10 +180,10 @@ addToDoneList("Exercise 11 is correct.")
 
 
 
-assert(isPositive(positive_odd_number), true, "Ensure that the function is defined, named properly, and returns the correct value");
-assert(isPositive(positive_even_number), true, "Ensure that the function is defined, named properly, and returns the correct value");
-assert(isPositive(negative_odd_number), false, "Ensure that the function is defined, named properly, and returns the correct value");
-assert(isPositive(negative_even_number), false, "Ensure that the function is defined, named properly, and returns the correct value");
+assert(isPositive(positiveOddNumber), true, "Ensure that the function is defined, named properly, and returns the correct value");
+assert(isPositive(positiveEvenNumber), true, "Ensure that the function is defined, named properly, and returns the correct value");
+assert(isPositive(negativeOddNumber), false, "Ensure that the function is defined, named properly, and returns the correct value");
+assert(isPositive(negativeEvenNumber), false, "Ensure that the function is defined, named properly, and returns the correct value");
 addToDoneList("Exercise 12 is correct.")
 
 
@@ -192,10 +192,86 @@ addToDoneList("Exercise 12 is correct.")
 
 
 
-assert isNegative(positive_odd_number, false, "Ensure that the function is defined, named properly, and returns the correct value");
-assert isNegative(positive_even_number, false, "Ensure that the function is defined, named properly, and returns the correct value");
-assert isNegative(negative_odd_number, true, "Ensure that the function is defined, named properly, and returns the correct value");
-assert isNegative(negative_even_number, true, "Ensure that the function is defined, named properly, and returns the correct value");
+assert(isNegative(positiveOddNumber, false, "Ensure that the function is defined, named properly, and returns the correct value");
+assert(isNegative(positiveEvenNumber, false, "Ensure that the function is defined, named properly, and returns the correct value");
+assert(isNegative(negativeOddNumber, true, "Ensure that the function is defined, named properly, and returns the correct value");
+assert(isNegative(negativeEvenNumber, true, "Ensure that the function is defined, named properly, and returns the correct value");
 addToDoneList("Exercise 13 is correct.")
 
 
+// Exercise 14
+// Write a function definition named isOdd that takes in a number and returns true or false if that number is odd.
+
+assert(isOdd(positiveOddNumber), true, "Ensure that the function is defined, named properly, and returns the correct value");
+assert(isOdd(positiveEvenNumber), false, "Ensure that the function is defined, named properly, and returns the correct value");
+assert(isOdd(negativeOddNumber), true, "Ensure that the function is defined, named properly, and returns the correct value");
+assert(isOdd(negativeEvenNumber), false, "Ensure that the function is defined, named properly, and returns the correct value");
+addToDoneList("Exercise 14 is correct.")
+
+// Exercise 15
+// Write a function definition named isEven that takes in a number and returns true or false if that number is even.
+
+assert(isEven(2), true, "Ensure that the function is defined, named properly, and returns the correct value");
+assert(isEven(positiveOddNumber), false, "Ensure that the function is defined, named properly, and returns the correct value");
+assert(isEven(positiveEvenNumber), true, "Ensure that the function is defined, named properly, and returns the correct value");
+assert(isEven(negativeOddNumber), false, "Ensure that the function is defined, named properly, and returns the correct value");
+assert(isEven(negativeEvenNumber), true, "Ensure that the function is defined, named properly, and returns the correct value");
+addToDoneList("Exercise 15 is correct.")
+
+
+// Exercise 16
+// Write a function definition named identity that takes in any argument and returns that argument's value. Don't overthink this one!
+
+assert(identity(fruits), fruits, "Ensure that the function is defined, named properly, and returns the correct value");
+assert(identity(vegetables), vegetables, "Ensure that the function is defined, named properly, and returns the correct value");
+assert(identity(positiveOddNumber), positiveOddNumber, "Ensure that the function is defined, named properly, and returns the correct value");
+assert(identity(positiveEvenNumber), positiveEvenNumber, "Ensure that the function is defined, named properly, and returns the correct value");
+assert(identity(negativeOddNumber), negativeOddNumber, "Ensure that the function is defined, named properly, and returns the correct value");
+assert(identity(negativeEvenNumber), negativeEvenNumber, "Ensure that the function is defined, named properly, and returns the correct value");
+addToDoneList("Exercise 16 is correct.")
+
+
+// Exercise 17
+// Write a function definition named isPositiveOdd that takes in a number and returns true or false if the value is both greater than zero and odd
+
+
+
+assert(isPositiveOdd(3), true, "Double check your syntax and logic" );
+assert(isPositiveOdd(positiveOddNumber), true, "Double check your syntax and logic");
+assert(isPositiveOdd(positiveEvenNumber), false, "Double check your syntax and logic");
+assert(isPositiveOdd(negativeOddNumber), false, "Double check your syntax and logic");
+assert(isPositiveOdd(negativeEvenNumber), false, "Double check your syntax and logic");
+addToDoneList("Exercise 17 is correct.")
+
+
+// Exercise 18
+// Write a function definition named isPositiveEven that takes in a number and returns true or false if the value is both greater than zero and even
+
+assert(isPositiveEven(4), true, "Double check your syntax and logic" );
+assert(isPositiveEven(positiveOddNumber), false, "Double check your syntax and logic");
+assert(isPositiveEven(positiveEvenNumber), true, "Double check your syntax and logic");
+assert(isPositiveEven(negativeOddNumber), false, "Double check your syntax and logic");
+assert(isPositiveEven(negativeEvenNumber), false, "Double check your syntax and logic");
+addToDoneList("Exercise 18 is correct.")
+
+
+// Exercise 19
+// Write a function definition named isNegativeOdd that takes in a number and returns true or false if the value is both less than zero and odd.
+
+assert(isNegativeOdd(-3), true, "Double check your syntax and logic" );
+assert(isNegativeOdd(positiveOddNumber), false, "Double check your syntax and logic");
+assert(isNegativeOdd(positiveEvenNumber), false, "Double check your syntax and logic");
+assert(isNegativeOdd(negativeOddNumber), true, "Double check your syntax and logic");
+assert(isNegativeOdd(negativeEvenNumber), false, "Double check your syntax and logic");
+addToDoneList("Exercise 19 is correct.")
+
+
+// Exercise 20
+// Write a function definition named isNegativeEven that takes in a number and returns true or false if the value is both less than zero and even.
+
+assert(isNegativeEven(-4), true, "Double check your syntax and logic" );
+assert(isNegativeEven(positiveOddNumber), false, "Double check your syntax and logic");
+assert(isNegativeEven(positiveEvenNumber), false, "Double check your syntax and logic");
+assert(isNegativeEven(negativeOddNumber), false, "Double check your syntax and logic");
+assert(isNegativeEven(negativeEvenNumber), true, "Double check your syntax and logic");
+addToDoneList("Exercise 20 is correct.")
