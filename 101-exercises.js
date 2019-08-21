@@ -85,8 +85,9 @@ addToDone("Exercise 9 is correct.")
 
 // Exercise 10
 // Write the code necessary to produce a single array that holds all fruits then all vegetables in the order as they were sorted above.
+// Assign the result to a variable named fruitsAndVeggies
 
-assert(fruits_and_veggies, ['tomato', 'strawberry', 'mango', 'kiwi', 'guava', 'banana', 'broccoli', 'carrot', 'cauliflower', 'eggplant', 'tomato', 'zucchini'])
+assert(fruitsAndVeggies, ['tomato', 'strawberry', 'mango', 'kiwi', 'guava', 'banana', 'broccoli', 'carrot', 'cauliflower', 'eggplant', 'tomato', 'zucchini'])
 addToDone("Exercise 10 is correct")
 
 // This function generates a random number that is both positive and even
