@@ -88,7 +88,7 @@ addToDoneList("Exercise 9 is correct.")
 assert(fruits_and_veggies, ['tomato', 'strawberry', 'mango', 'kiwi', 'guava', 'banana', 'broccoli', 'carrot', 'cauliflower', 'eggplant', 'tomato', 'zucchini'])
 addToDoneList("Exercise 10 is correct")
 
-// The following code sets up some random numbers.
+// This function generates a random number that is both positive and even
 function randomPositiveEvenNumber() {
     var randomNumber = Math.ceil(Math.random() * 100) + 10;
     if(randomNumber % 2 !== 0) {
@@ -98,6 +98,7 @@ function randomPositiveEvenNumber() {
     return randomNumber;
 }
 
+// this function generates a random number that is both positive and odd
 function randomPositiveOddNumber() {
     var randomNumber = Math.ceil(Math.random() * 100) + 10;
     if(randomNumber % 2 === 0) {
@@ -107,6 +108,7 @@ function randomPositiveOddNumber() {
     return randomNumber;
 }
 
+// this function generates a random number that is both negative and even.
 function randomNegativeEvenNumber() {
     var randomNumber = Math.ceil(Math.random() * -100) - 10;
     if(randomNumber % 2 === 0) {
@@ -116,6 +118,7 @@ function randomNegativeEvenNumber() {
     return randomNegativeEvenNumber();
 }
 
+// this function generates a random number that is both negative and odd.
 function randomNegativeOddNumber() {
     var randomNumber = Math.ceil(Math.random() * -100) - 10;
     if(randomNumber % 2 === 0) {
@@ -125,17 +128,74 @@ function randomNegativeOddNumber() {
     return randomNumber;
 }
 
-positiveEvenNumber = randomPositiveEvenNumber()
-positiveOddNumber = randomPositiveOddNumber();
-negativeEvenNumber = randomNegativeEvenNumber();
-negativeOddNumber = randomNegativeOddNumber();
-
-console.log(positiveEvenNumber)
-console.log(positiveOddNumber)
-console.log(negativeEvenNumber)
-console.log(negativeOddNumber)
+// The next 4 lines create variables that hold these generated random numbers
+var positiveEvenNumber = randomPositiveEvenNumber()
+var positiveOddNumber = randomPositiveOddNumber();
+var negativeEvenNumber = randomNegativeEvenNumber();
+var negativeOddNumber = randomNegativeOddNumber();
 
 // Writing functions
 // See https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions for help with writing functions
 // Be sure to return values from your function definitions. The assert statements will call/run your function(s) for you.
+
+
+// Example function defintion:
+// Write a sayHello function that adds the string "Hello, " to the beginning and "!" to the end of any given input.
+function sayHello(name) {
+    return "Hello, " + name + "!";
+}
+
+assert(sayHello("Jane"), "Hello, Jane!");
+assert(sayHello("Pat"), "Hello, Pat!");
+assert(sayHello("Astrud"), "Hello, Astrud!");
+assert(sayHello("June"), "Hello, June!");
+assert(sayHello("World"), "Hello, World!");
+
+// Heres another example function definition
+// This plusTwo function takes in a variable and adds the number 2 to it.
+function addTwo(x) {
+    return x + 2;
+}
+
+assert(plusTwo(3), 5, "3 plus 2 is five")
+assert(plusTwo(-2), 0, "-2 plus 2 is zero")
+assert(plusTwo(0), 2, "zero plus 2 is two")
+
+
+
+// Exercise 11
+// Write a function definition for a function named addOne that takes in a number and returns that number plus one
+
+
+
+assert(addOne(2), 3, "Ensure that the function is defined, named properly, and returns the correct value");
+assert(addOne(0), 1, "Zero plus one is one.");
+assert(addOne(positiveEvenNumber), positiveEvenNumber + 1, "Ensure that the function is defined, named properly, and returns the correct value");
+assert(addOne(negativeOddNumber), negativeOddNumber + 1, "Ensure that the function is defined, named properly, and returns the correct value");
+addToDoneList("Exercise 11 is correct.")
+
+
+// Exercise 12
+// Write a function definition named isPositive that takes in a number and returns true or false if that number is positive.
+
+
+
+assert(isPositive(positive_odd_number), true, "Ensure that the function is defined, named properly, and returns the correct value");
+assert(isPositive(positive_even_number), true, "Ensure that the function is defined, named properly, and returns the correct value");
+assert(isPositive(negative_odd_number), false, "Ensure that the function is defined, named properly, and returns the correct value");
+assert(isPositive(negative_even_number), false, "Ensure that the function is defined, named properly, and returns the correct value");
+addToDoneList("Exercise 12 is correct.")
+
+
+// Exercise 13
+// Write a function definition named isNegative that takes in a number and returns True or False if that number is negative.
+
+
+
+assert isNegative(positive_odd_number, false, "Ensure that the function is defined, named properly, and returns the correct value");
+assert isNegative(positive_even_number, false, "Ensure that the function is defined, named properly, and returns the correct value");
+assert isNegative(negative_odd_number, true, "Ensure that the function is defined, named properly, and returns the correct value");
+assert isNegative(negative_even_number, true, "Ensure that the function is defined, named properly, and returns the correct value");
+addToDoneList("Exercise 13 is correct.")
+
 
