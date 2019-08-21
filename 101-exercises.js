@@ -5,7 +5,7 @@
 // Example problem setup: Create a variable named doingJSRightNow and assign it the boolean true.
 // The line below creates the variable named doingJSRightNow and assigns the boolean value true
 // To complete Exercise #0, uncomment the following line of JS
-var doingJSRightNow = true
+// var doingJSRightNow = true
 
 // The lines below will test your answer. If you see an error, then it means that your answer is incorrect or incomplete.
 assert(doingJSRightNow, true, "a variable holding a true boolean value should be equal to true"); 
@@ -13,7 +13,7 @@ addToDone("Exercise 0 is correct");
 
 
 //  Exercise 1
-// On the line below, create a varia ble named onMarsRightNow and assign it the boolean value of false
+// On the line below, create a variable named onMarsRightNow and assign it the boolean value of false
 
 assert(onMarsRightNow, false, "If you see a Reference Error, be sure to create the variable and assign it a value.");
 addToDone("Exercise 1 is correct.");
@@ -21,9 +21,8 @@ addToDone("Exercise 1 is correct.");
 // Exercise 2
 // Create a variable named fruits and assign it an array of strings containing the following fruits.
 // mango, banana, guava, kiwi, and strawberry.
-var fruits = ["mango", "banana", "guava", "kiwi", "strawberry"]
 
-assert(fruits, ["mango", "banana", "guava", "kiwi", "strawberry"], "ensure the array variable contains all the strings in the provided order");
+assert(fruits, ["mango", "banana", "guava", "kiwi", "strawberry"], "Ensure the variable contains all the strings in the provided order");
 addToDone("Exercise 2 is correct.");
 
 //  Exercise 3
@@ -193,10 +192,10 @@ addToDone("Exercise 12 is correct.")
 
 
 
-assert(isNegative(positiveOddNumber, false, "Ensure that the function is defined, named properly, and returns the correct value");
-assert(isNegative(positiveEvenNumber, false, "Ensure that the function is defined, named properly, and returns the correct value");
-assert(isNegative(negativeOddNumber, true, "Ensure that the function is defined, named properly, and returns the correct value");
-assert(isNegative(negativeEvenNumber, true, "Ensure that the function is defined, named properly, and returns the correct value");
+assert(isNegative(positiveOddNumber), false, "Ensure that the function is defined, named properly, and returns the correct value");
+assert(isNegative(positiveEvenNumber), false, "Ensure that the function is defined, named properly, and returns the correct value");
+assert(isNegative(negativeOddNumber), true, "Ensure that the function is defined, named properly, and returns the correct value");
+assert(isNegative(negativeEvenNumber), true, "Ensure that the function is defined, named properly, and returns the correct value");
 addToDone("Exercise 13 is correct.")
 
 
