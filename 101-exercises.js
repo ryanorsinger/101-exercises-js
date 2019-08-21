@@ -60,7 +60,7 @@ addToDone("Exercise 6 is correct")
 
 // Exercise 7
 // Given the array of numbers defined below, reverse the array of numbers that you created above. 
-numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+var numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 
 assert(numbers, [10, 9, 8, 7, 6, 5, 4, 3, 2, 1], "An Error means that the answer is incorrect.")
