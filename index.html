@@ -36,6 +36,11 @@
         section > h2 {
             text-align: center;
         }
+        .troubleshooting img {
+            width: 600px;
+            height: auto;
+            /*margin: .5em;*/
+        }
         
     </style>
 </head>
@@ -56,20 +61,19 @@
             <hr>
             <h3>Orientation</h3>
             <ul>
-                <li>Open the JavaScript console in <a href="https://developer.mozilla.org/en-US/docs/Tools/Web_Console/Opening_the_Web_Console" target="_blank">Firefox</a> or <a href="https://stackoverflow.com/questions/66420/how-do-you-launch-the-javascript-debugger-in-google-chrome" target="_blank">Chrome</a>. The F12 key usually works.</li>
+                <li>index.html is the page that runs all the JS contained in 101-exercises.js</li>
+                <li>Open the JavaScript console in <a href="https://developer.mozilla.org/en-US/docs/Tools/Web_Console/Opening_the_Web_Console" target="_blank">Firefox</a> or <a href="https://stackoverflow.com/questions/66420/how-do-you-launch-the-javascript-debugger-in-google-chrome" target="_blank">Chrome</a>. F12 usually works.</li>
                 <li>Start writing solutions inside of 101-exercises.js in the editor.</li>
-                <li>Open the 101-exercises.js in your text editor</li>
-                <li></li>
+                <li>Refresh index.html to re-run any new changes from 101-exercises.js</li>
             </ul>
+
             <hr>
-            <h3>Setup instructions for use with git and GitHub</h3>
-            <ol>
-                <li>Go to https://github.com/ryanorsinger/101-exercises-js and click "Fork"</li>
-                <li>Find the 101-exercises repository on your account and clone it locally.</li>
-                <li>Open index.html in your browser</li>
-                <li>Make edits in 101-exercises.js</li>
-                <li>Add, commit, and push your work to your fork.</li>
-            </ol>
+            <h3>Welcome!</h3>
+            <p>Welcome to 101-Exercises!</p>
+            <p>This project exists to help learners gain deep practice with JS fundamentals, syntax, and converting problems in English to solutions in JS.</p>
+            <p>If you notice any typos, misspellings, or mistakes, please triple check your work and <a href="" target="_blank">open an issue on GitHub</a> citing both the line number and exercise number.</p>
+
+            <hr>
             
         </section>
         <section class="troubleshooting">
@@ -83,9 +87,34 @@
             </ul>
             <hr>
             <h3>Error messages</h3>
-                <ul>
-                    <li>"ReferenceError: someVariable is not defined" means the variable/function needs to be defined</li>
-                </ul>
+                
+                <figure>
+                    <p>
+                        <em>Reference Error</em> means you need to define the variable or function. 
+                        <br>
+                        The number by the 101-exercises.js filename highlights the line where the variable is referenced before it exist
+                    </p>
+                    <img src="https://cdn.glitch.com/eea181be-12a8-4dfb-9200-096233b7a427%2Freference_error.png?v=1566406423258" alt="image of a reference">
+                </figure>
+                <figure>
+                    <p>
+                        <em>Syntax Error</em> means there's a syntax error that needs to be fixed. 
+                        <br>
+                        The number by the 101-exercises.js filename highlights the line where the syntax error exists.
+                    </p>
+                    <img src="https://cdn.glitch.com/eea181be-12a8-4dfb-9200-096233b7a427%2Fsyntax_error.png?v=1566406423173" alt="image of a syntax error">
+                </figure>
+                
+                <figure>
+                    <p>
+                        <em>Uncaught Error</em> means the answer is incorrect and doesn't match the test. 
+                        <br>    
+                        The number by the 101-exercises.js filename highlights the line for the exercise where the expected value in the test does not match the actual value provided by the attempted solution. Ignore the line number 6 in assert.js.
+                    </p>
+                    <img src="https://cdn.glitch.com/eea181be-12a8-4dfb-9200-096233b7a427%2Funcaught_error.png?v=1566406423323" alt="uncaught error message">
+                </figure>
+                
+            
         </section>
         <section class="correct">
             <h3>Problems Correct</h3>
