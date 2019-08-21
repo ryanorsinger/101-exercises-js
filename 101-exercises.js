@@ -617,7 +617,7 @@ addToDoneList("Exercise 50 is correct.")
 assert(second("ubuntu"), "b");
 assert(second([1, 2, 3]), 2);
 assert(second(["python", "is", "awesome"]), "is");
-print("Exercise 51 is correct.")
+addToDoneList("Exercise 51 is correct.")
 
 
 // Exercise 52
@@ -626,7 +626,7 @@ print("Exercise 51 is correct.")
 assert(third("ubuntu"), "u");
 assert(third([1, 2, 3]), 3);
 assert(third(["python", "is", "awesome"]), "awesome");
-print("Exercise 52 is correct.")
+addToDoneList("Exercise 52 is correct.")
 
 
 // Exercise 53
@@ -635,7 +635,7 @@ print("Exercise 52 is correct.")
 assert(forth("ubuntu"), "n");
 assert(forth([1, 2, 3, 4]), 4);
 assert(forth(["python", "is", "awesome", "right?"]), "right?");
-print("Exercise 53 is correct.")
+addToDoneList("Exercise 53 is correct.")
 
 
 // Exercise 54
@@ -645,7 +645,7 @@ assert(last("ubuntu"), "u");
 assert(last([1, 2, 3, 4]), 4);
 assert(last(["python", "is", "awesome"]), "awesome");
 assert(last(["kiwi", "mango", "guava"]), "guava");
-print("Exercise 54 is correct.")
+addToDoneList("Exercise 54 is correct.")
 
 
 // Exercise 55
@@ -655,7 +655,7 @@ assert(secondToLast("ubuntu"), "t");
 assert(secondToLast([1, 2, 3, 4]), 3);
 assert(secondToLast(["python", "is", "awesome"]), "is");
 assert(secondToLast(["kiwi", "mango", "guava"]), "mango");
-print("Exercise 55 is correct.")
+addToDoneList("Exercise 55 is correct.")
 
 
 // Exercise 56
@@ -665,7 +665,7 @@ assert(thirdToLast("ubuntu"), "n");
 assert(thirdToLast([1, 2, 3, 4]), 2);
 assert(thirdToLast(["python", "is", "awesome"]), "python");
 assert(thirdToLast(["strawberry", "kiwi", "mango", "guava"]), "kiwi");
-print("Exercise 56 is correct.")
+addToDoneList("Exercise 56 is correct.")
 
 
 // Exercise 57
@@ -674,7 +674,7 @@ print("Exercise 56 is correct.")
 assert(firstAndSecond([1, 2, 3, 4]), [1, 2]);
 assert(firstAndSecond(["python", "is", "awesome"]), ["python", "is"]);
 assert(firstAndSecond(["strawberry", "kiwi", "mango", "guava"]), ["strawberry", "kiwi"]);
-print("Exercise 57 is correct.")
+addToDoneList("Exercise 57 is correct.")
 
 
 // Exercise 58
@@ -683,7 +683,7 @@ print("Exercise 57 is correct.")
 assert(firstAndLast([1, 2, 3, 4]), [1, 4]);
 assert(firstAndLast(["python", "is", "awesome"]), ["python", "awesome"]);
 assert(firstAndLast(["strawberry", "kiwi", "mango", "guava"]), ["strawberry", "guava"]);
-print("Exercise 58 is correct.")
+addToDoneList("Exercise 58 is correct.")
 
 
 
@@ -693,7 +693,7 @@ print("Exercise 58 is correct.")
 assert(firstToLast([1, 2, 3, 4]), [2, 3, 4, 1]);
 assert(firstToLast(["python", "is", "awesome"]), ["is", "awesome", "python"]);
 assert(firstToLast(["strawberry", "kiwi", "mango", "guava"]), ["kiwi", "mango", "guava", "strawberry"]);
-print("Exercise 59 is correct.")
+addToDoneList("Exercise 59 is correct.")
 
 
 
@@ -703,7 +703,7 @@ print("Exercise 59 is correct.")
 assert(sumAll([1, 2, 3, 4]), 10);
 assert(sumAll([3, 3, 3]), 9);
 assert(sumAll([0, 5, 6]), 11);
-print("Exercise 60 is correct.")
+addToDoneList("Exercise 60 is correct.")
 
 
 
@@ -713,7 +713,7 @@ print("Exercise 60 is correct.")
 assert(mean([1, 2, 3, 4]), 2.5);
 assert(mean([3, 3, 3]), 3);
 assert(mean([1, 5, 6]), 4);
-print("Exercise 61 is correct.")
+addToDoneList("Exercise 61 is correct.")
 
 
 
@@ -724,7 +724,7 @@ assert(median([1, 2, 3, 4, 5]), 3.0);
 assert(median([1, 2, 3]), 2.0);
 assert(median([1, 5, 6]), 5.0);
 assert(median([1, 2, 5, 6]), 3.5);
-print("Exercise 62 is correct.")
+addToDoneList("Exercise 62 is correct.")
 
 
 // Exercise 63
@@ -733,7 +733,7 @@ print("Exercise 62 is correct.")
 assert(mode([1, 2, 2, 3, 4]), 2);
 assert(mode([1, 1, 2, 3]), 1);
 assert(mode([2, 2, 3, 3, 3]), 3);
-print("Exercise 63 is correct.")
+addToDoneList("Exercise 63 is correct.")
 
 
 // Exercise 64
@@ -742,7 +742,7 @@ print("Exercise 63 is correct.")
 assert(productOfAll([1, 2, 3]), 6);
 assert(productOfAll([3, 4, 5]), 60);
 assert(productOfAll([2, 2, 3, 0]), 0);
-print("Exercise 64 is correct.")
+addToDoneList("Exercise 64 is correct.")
 
 
 // Keep this variable assignment for the next few problems
@@ -755,7 +755,7 @@ numbers = [-5, -4, -3, -2, -1, 1, 2, 3, 4, 5]
 assert(getHighestNumber([1, 2, 3]), 3);
 assert(getHighestNumber([-5, -4, -3, -2, -1, 1, 2, 3, 4, 5]), 5);
 assert(getHighestNumber([-5, -3, 1]), 1);
-print("Exercise 65 is correct.")
+addToDoneList("Exercise 65 is correct.")
 
 
 
@@ -766,7 +766,7 @@ print("Exercise 65 is correct.")
 assert(getSmallestNumber([1, 2, 3]), 1);
 assert(getSmallestNumber([-5, -4, -3, -2, -1, 1, 2, 3, 4, 5]), -5);
 assert(getSmallestNumber([-4, -3, 1]), -4);
-print("Exercise 66 is correct.")
+addToDoneList("Exercise 66 is correct.")
 
 
 // Exercise 67
@@ -775,7 +775,7 @@ print("Exercise 66 is correct.")
 assert(onlyOddNumbers([1, 2, 3]), [1, 3]);
 assert(onlyOddNumbers([-5, -4, -3, -2, -1, 1, 2, 3, 4, 5]), [-5, -3, -1, 1, 3, 5]);
 assert(onlyOddNumbers([-4, -3, 1]), [-3, 1]);
-print("Exercise 67 is correct.")
+addToDoneList("Exercise 67 is correct.")
 
 
 
@@ -785,7 +785,7 @@ print("Exercise 67 is correct.")
 assert(onlyEvenNumbers([1, 2, 3]), [2]);
 assert(onlyEvenNumbers([-5, -4, -3, -2, -1, 1, 2, 3, 4, 5]), [-4, -2, 2, 4]);
 assert(onlyEvenNumbers([-4, -3, 1]), [-4]);
-print("Exercise 68 is correct.")
+addToDoneList("Exercise 68 is correct.")
 
 
 // Exercise 69
@@ -794,7 +794,7 @@ print("Exercise 68 is correct.")
 assert(onlyPositiveNumbers([1, 2, 3]), [1, 2, 3]);
 assert(onlyPositiveNumbers([-5, -4, -3, -2, -1, 1, 2, 3, 4, 5]), [1, 2, 3, 4, 5]);
 assert(onlyPositiveNumbers([-4, -3, 1]), [1]);
-print("Exercise 69 is correct.")
+addToDoneList("Exercise 69 is correct.")
 
 
 // Exercise 70
@@ -803,7 +803,7 @@ print("Exercise 69 is correct.")
 assert(onlyNegativeNumbers([1, 2, 3]), []);
 assert(onlyNegativeNumbers([-5, -4, -3, -2, -1, 1, 2, 3, 4, 5]), [-5, -4, -3, -2, -1]);
 assert(onlyNegativeNumbers([-4, -3, 1]), [-4, -3]);
-print("Exercise 70 is correct.");
+addToDoneList("Exercise 70 is correct.");
 
 
 
@@ -814,7 +814,7 @@ assert(hasEvens([1, 2, 3]), true);
 assert(hasEvens([2, 5, 6]), true);
 assert(hasEvens([3, 3, 3]), false);
 assert(hasEvens([]), false);
-print("Exercise 71 is correct.");
+addToDoneList("Exercise 71 is correct.");
 
 
 
@@ -825,7 +825,7 @@ assert(countEvens([1, 2, 3]), 1);
 assert(countEvens([2, 5, 6]), 2);
 assert(countEvens([3, 3, 3]), 0);
 assert(countEvens([5, 6, 7, 8] ), 2);
-print("Exercise 72 is correct.")
+addToDoneList("Exercise 72 is correct.")
 
 
 // Exercise 73
@@ -835,7 +835,7 @@ assert(hasOdds([1, 2, 3]), true);
 assert(hasOdds([2, 5, 6]), true);
 assert(hasOdds([3, 3, 3]), true);
 assert(hasOdds([2, 4, 6]), false);
-print("Exercise 73 is correct.")
+addToDoneList("Exercise 73 is correct.")
 
 
 // Exercise 74
@@ -845,7 +845,7 @@ assert(countOdds([1, 2, 3]), 2);
 assert(countOdds([2, 5, 6]), 1);
 assert(countOdds([3, 3, 3]), 3);
 assert(countOdds([2, 4, 6]), 0);
-print("Exercise 74 is correct.")
+addToDoneList("Exercise 74 is correct.")
 
 
 // Exercise 75
@@ -854,7 +854,7 @@ print("Exercise 74 is correct.")
 assert(countNegatives([1, -2, 3]), 1);
 assert(countNegatives([2, -5, -6]), 2);
 assert(countNegatives([3, 3, 3]), 0);
-print("Exercise 75 is correct.")
+addToDoneList("Exercise 75 is correct.")
 
 
 // Exercise 76
@@ -864,7 +864,7 @@ assert(countPositives([1, -2, 3]), 2);
 assert(countPositives([2, -5, -6]), 1);
 assert(countPositives([3, 3, 3]), 3);
 assert(countPositives([-2, -1, -5]), 0);
-print("Exercise 76 is correct.")
+addToDoneList("Exercise 76 is correct.")
 
 
 // Exercise 77
@@ -874,7 +874,7 @@ assert(onlyPositiveEvens([1, -2, 3]), []);
 assert(onlyPositiveEvens([2, -5, -6]), [2]);
 assert(onlyPositiveEvens([3, 3, 4, 6]), [4, 6]);
 assert(onlyPositiveEvens([2, 3, 4, -1, -5]), [2, 4]);
-print("Exercise 77 is correct.")
+addToDoneList("Exercise 77 is correct.")
 
 
 // Exercise 78
@@ -884,7 +884,7 @@ assert(onlyPositiveOdds([1, -2, 3]), [1, 3]);
 assert(onlyPositiveOdds([2, -5, -6]), []);
 assert(onlyPositiveOdds([3, 3, 4, 6]), [3, 3]);
 assert(onlyPositiveOdds([2, 3, 4, -1, -5]), [3]);
-print("Exercise 78 is correct.")
+addToDoneList("Exercise 78 is correct.")
 
 
 // Exercise 79
@@ -894,7 +894,7 @@ assert(onlyNegativeEvens([1, -2, 3]), [-2]);
 assert(onlyNegativeEvens([2, -5, -6]), [-6]);
 assert(onlyNegativeEvens([3, 3, 4, 6]), []);
 assert(onlyNegativeEvens([-2, 3, 4, -1, -4]), [-2, -4]);
-print("Exercise 79 is correct.")
+addToDoneList("Exercise 79 is correct.")
 
 
 // Exercise 80
@@ -904,7 +904,7 @@ assert(onlyNegativeOdds([1, -2, 3]), []);
 assert(onlyNegativeOdds([2, -5, -6]), [-5]);
 assert(onlyNegativeOdds([3, 3, 4, 6]), []);
 assert(onlyNegativeOdds([2, -3, 4, -1, -4]), [-3, -1]);
-print("Exercise 80 is correct.")
+addToDoneList("Exercise 80 is correct.")
 
 
 // Exercise 81
@@ -913,7 +913,7 @@ print("Exercise 80 is correct.")
 assert(shortestString(["kiwi", "mango", "strawberry"]), "kiwi");
 assert(shortestString(["hello", "everybody"]), "hello");
 assert(shortestString(["mary", "had", "a", "little", "lamb"]), "a");
-print("Exercise 81 is correct.")
+addToDoneList("Exercise 81 is correct.")
 
 
 // Exercise 82
@@ -922,7 +922,7 @@ print("Exercise 81 is correct.")
 assert(longestString(["kiwi", "mango", "strawberry"]), "strawberry");
 assert(longestString(["hello", "everybody"]), "everybody");
 assert(longestString(["mary", "had", "a", "little", "lamb"]), "little");
-print("Exercise 82 is correct.")
+addToDoneList("Exercise 82 is correct.")
 
 // *hint* for the next few exercises, consider using sets - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set
 // If you've got a set and need to convert it back into an array, do a search for "convert a set into an array in JavaScript"
@@ -933,37 +933,37 @@ print("Exercise 82 is correct.")
 assert(getUniqueValues(["ant", "ant", "mosquito", "mosquito", "ladybug"]), ["ant", "mosquito", "ladybug"]);
 assert(getUniqueValues(["b", "a", "n", "a", "n", "a", "s"]), ["b", "a", "n", "s"]);
 assert(getUniqueValues(["mary", "had", "a", "little", "lamb", "little", "lamb", "little", "lamb"]), ["mary", "had", "a", "little", "lamb"]);
-print("Exercise 83 is correct.")
+addToDoneList("Exercise 83 is correct.")
 
 
 // Exercise 84
-// Write a function definition named getUniqueValuesFromTwoLists that takes two lists and returns a single set with only the unique values
+// Write a function definition named getUniqueValuesFromTwoLists that takes two arrays and returns a single array with only the unique values
 
 
 assert(getUniqueValuesFromTwoLists([5, 1, 2, 3], [3, 4, 5, 5]), [1, 2, 3, 4, 5]);
 assert(getUniqueValuesFromTwoLists([1, 1], [2, 2, 3]), [1, 2, 3]);
 assert(getUniqueValuesFromTwoLists(["tomato", "mango", "kiwi"], ["eggplant", "tomato", "broccoli"]), ["tomato", "mango", "kiwi", "eggplant", "broccoli"]);
-print("Exercise 84 is correct.")
+addToDoneList("Exercise 84 is correct.")
 
 
 // Exercise 85
-// Write a function definition named getValuesInCommon that takes two lists and returns a single set with the values that each list has in common
+// Write a function definition named getValuesInCommon that takes two lists and returns a single array with the values that each list has in common
 
 
 assert(getValuesInCommon([5, 1, 2, 3], [3, 4, 5, 5]), [3, 5]);
 assert(getValuesInCommon([1, 2], [2, 2, 3]), [2]);
 assert(getValuesInCommon(["tomato", "mango", "kiwi"], ["eggplant", "tomato", "broccoli"]), ["tomato"]);
-print("Exercise 85 is correct.")
+addToDoneList("Exercise 85 is correct.")
 
 
 
 // Exercise 86
-// Write a function definition named get_values_not_in_common that takes two lists and returns a single set with the values that each list does not have in common
+// Write a function definition named get_values_not_in_common that takes two lists and returns a single array with the values that each list does not have in common
 
 assert(get_values_not_in_common([5, 1, 2, 3], [3, 4, 5, 5]), [1, 2, 4]);
 assert(get_values_not_in_common([1, 1], [2, 2, 3]), [1, 2, 3]);
 assert(get_values_not_in_common(["tomato", "mango", "kiwi"], ["eggplant", "tomato", "broccoli"]), ["mango", "kiwi", "eggplant", "broccoli"]);
-print("Exercise 86 is correct.")
+addToDoneList("Exercise 86 is correct.")
 
 
 // Working with JS Objects
@@ -985,11 +985,11 @@ thomas_paper = {
 
 
 // Exercise 87
-// Write a function named getPaperTitle that takes in a dictionary and returns the title property
+// Write a function named getPaperTitle that takes in a object and returns the title property
 
 assert(getPaperTitle(tukey_paper), "The Future of Data Analysis");
 assert(getPaperTitle(thomas_paper), "A mathematical model of glutathione metabolism");
-print("Exercise 87 is correct.")
+addToDoneList("Exercise 87 is correct.")
 
 // this code defines a JS object with information about a book.
 book = {
@@ -999,16 +999,182 @@ book = {
 }
 
 // Exercise 89
-// Write a function named getPrice that takes in a dictionary and returns the price
+// Write a function named getPrice that takes in a object and returns the price
 
 assert(getPrice(book), 36.99);
-print("Exercise 89 is complete.")
+addToDoneList("Exercise 89 is complete.")
 
 
 
 // Exercise 90
-// Write a function named getBookAuthor that takes in a dictionary (the above declared book variable) and returns the author's name
+// Write a function named getBookAuthor that takes in a object (the above declared book variable) and returns the author's name
 
 
 assert(getBookAuthor(book), "Frances Buontempo");
-print("Exercise 90 is complete.")
+addToDoneList("Exercise 90 is complete.")
+
+
+// The next exercises work with a arrays of objects.
+// You'll see arrays of objects over and over again with data in a program. 
+// Here is our arrays of objects.
+books = [
+    {
+        "title": "Genetic Algorithms and Machine Learning for Programmers",
+        "price": 36.99,
+        "author": "Frances Buontempo"
+    },
+    {
+        "title": "The Visual Display of Quantitative Information",
+        "price": 38.00,
+        "author": "Edward Tufte"
+    },
+    {
+        "title": "Practical Object-Oriented Design",
+        "author": "Sandi Metz",
+        "price": 30.47
+    },
+    {
+        "title": "Weapons of Math Destruction",
+        "author": "Cathy O'Neil",
+        "price": 17.44
+    }
+]
+
+
+// Exercise 91
+// Write a function named get_numberOfBooks that takes in a array of objects and returns the number of objects in that array.
+
+assert(get_numberOfBooks(books), 4);
+addToDoneList("Exercise 91 is complete.")
+
+
+
+// Exercise 92
+// Write a function named totalOfBookPrices that takes in a array of objects and returns the sum total of all the book prices added together
+
+assert(totalOfBookPrices(books), 122.9)
+addToDoneList("Exercise 92 is complete.")
+
+
+// Exercise 93
+// Write a function named getAverageBookPrice that takes in a array of dictionaries and returns the average book price.
+
+assert(getAverageBookPrice(books), 30.725);
+addToDoneList("Exercise 93 is complete.")
+
+
+// Exercise 94
+// Write a function called highestPriceBook that takes in the above defined array of objects "books" and returns the object containing the title, price, and author of the book with the highest priced book.
+// Hint: Much like sometimes start functions with a variable set to zero, you may want to create a object with the price set to zero to compare to each object's price in the array
+
+assert(highestPriceBook(books), {
+    "title": "The Visual Display of Quantitative Information",
+    "price": 38.00,
+    "author": "Edward Tufte"
+});
+
+addToDoneList("Exercise 94 is complete")
+
+
+
+// Exercise 95
+// Write a function called lowestPriceBook that takes in the above defined list of dictionaries "books" and returns the object containing the title, price, and author of the book with the lowest priced book.
+// Hint: Much like sometimes start functions with a variable set to zero or float('inf'), you may want to create a object with the price set to float('inf') to compare to each object in the list
+
+
+assert(lowestPriceBook(books), {
+    "title": "Weapons of Math Destruction",
+    "author": "Cathy O'Neil",
+    "price": 17.44
+});
+addToDoneList("Exercise 95 is complete.")
+
+
+const shopping_cart = {
+    "tax": .08,
+    "items": [
+        {
+            "title": "orange juice",
+            "price": 3.99,
+            "quantity": 1
+        },
+        {
+            "title": "rice",
+            "price": 1.99,
+            "quantity": 3
+        },
+        {
+            "title": "beans",
+            "price": 0.99,
+            "quantity": 3
+        },
+        {
+            "title": "chili sauce",
+            "price": 2.99,
+            "quantity": 1
+        },
+        {
+            "title": "chocolate",
+            "price": 0.75,
+            "quantity": 9
+        }
+    ]
+}
+
+
+// Exercise 96
+// Write a function named getTaxRate that takes in the above shopping cart as input and returns the tax rate.
+// Hint: How do you access a key's value on a object? The tax rate is one key of the entire shopping_cart object.
+
+assert(getTaxRate(shopping_cart), .08);
+addToDoneList("Exercise 96 is complete")
+
+
+
+// Exercise 97
+// Write a function named numberOfItemTypes that takes in the shopping cart as input and returns the number of unique item types in the shopping cart. 
+// We're not yet using the quantity of each item, but rather focusing on determining how many different types of items are in the cart.
+
+assert(numberOfItemTypes(shopping_cart), 5);
+addToDoneList("Exercise 97 is complete.")
+
+
+
+// Exercise 98
+// Write a function named totalNumberOfItems that takes in the shopping cart as input and returns the total number all item quantities.
+// This should return the sum of all of the quantities from each item type
+
+assert(totalNumberOfItems(shopping_cart), 17);
+addToDoneList("Exercise 98 is complete.")
+
+
+
+// Exercise 99
+// Write a function named getAverageItemPrice that takes in the shopping cart as an input and returns the average of all the item prices.
+// Hint - This should determine the total price divided by the number of types of items. This does not account for each item type's quantity.\
+
+assert(getAverageItemPrice(shopping_cart), 2.1420000000000003);
+addToDoneList("Exercise 99 is complete.")
+
+
+
+// Exercise 100
+// Write a function named getAverageSpentPerItem that takes in the shopping cart and returns the average of summing each item's quanties times that item's price.
+// Hint: You may need to set an initial total price and total total quantity to zero, then sum up and divide that total price by the total quantity
+
+assert(getAverageSpentPerItem(shopping_cart), 1.333529411764706);
+addToDoneList("Exercise 100 is complete.")
+
+
+// Exercise 101
+// Write a function named most_spent_on_item that takes in the shopping cart as input and returns the object associated with the item that has the highest price*quantity.
+// Be sure to do this as programmatically as possible. 
+// Hint: Similarly to how we sometimes begin a function with setting a variable to zero, we need a starting place:
+// Hint: Consider creating a variable that is a object with the keys "price" and "quantity" both set to 0. You can then compare each item's price and quantity total to the one from "most"
+
+assert(most_spent_on_item(shopping_cart), {
+    "title": "chocolate",
+    "price": 0.75,
+    "quantity": 9
+});
+addToDoneList("Exercise 101 is complete.")
