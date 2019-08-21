@@ -924,3 +924,91 @@ assert(longestString(["hello", "everybody"]), "everybody");
 assert(longestString(["mary", "had", "a", "little", "lamb"]), "little");
 print("Exercise 82 is correct.")
 
+// *hint* for the next few exercises, consider using sets - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set
+// If you've got a set and need to convert it back into an array, do a search for "convert a set into an array in JavaScript"
+
+// Exercise 83
+// Write a function definition named getUniqueValues that takes in a list and returns a set with only the unique values from that list.
+
+assert(getUniqueValues(["ant", "ant", "mosquito", "mosquito", "ladybug"]), ["ant", "mosquito", "ladybug"]);
+assert(getUniqueValues(["b", "a", "n", "a", "n", "a", "s"]), ["b", "a", "n", "s"]);
+assert(getUniqueValues(["mary", "had", "a", "little", "lamb", "little", "lamb", "little", "lamb"]), ["mary", "had", "a", "little", "lamb"]);
+print("Exercise 83 is correct.")
+
+
+// Exercise 84
+// Write a function definition named getUniqueValuesFromTwoLists that takes two lists and returns a single set with only the unique values
+
+
+assert(getUniqueValuesFromTwoLists([5, 1, 2, 3], [3, 4, 5, 5]), [1, 2, 3, 4, 5]);
+assert(getUniqueValuesFromTwoLists([1, 1], [2, 2, 3]), [1, 2, 3]);
+assert(getUniqueValuesFromTwoLists(["tomato", "mango", "kiwi"], ["eggplant", "tomato", "broccoli"]), ["tomato", "mango", "kiwi", "eggplant", "broccoli"]);
+print("Exercise 84 is correct.")
+
+
+// Exercise 85
+// Write a function definition named getValuesInCommon that takes two lists and returns a single set with the values that each list has in common
+
+
+assert(getValuesInCommon([5, 1, 2, 3], [3, 4, 5, 5]), [3, 5]);
+assert(getValuesInCommon([1, 2], [2, 2, 3]), [2]);
+assert(getValuesInCommon(["tomato", "mango", "kiwi"], ["eggplant", "tomato", "broccoli"]), ["tomato"]);
+print("Exercise 85 is correct.")
+
+
+
+// Exercise 86
+// Write a function definition named get_values_not_in_common that takes two lists and returns a single set with the values that each list does not have in common
+
+assert(get_values_not_in_common([5, 1, 2, 3], [3, 4, 5, 5]), [1, 2, 4]);
+assert(get_values_not_in_common([1, 1], [2, 2, 3]), [1, 2, 3]);
+assert(get_values_not_in_common(["tomato", "mango", "kiwi"], ["eggplant", "tomato", "broccoli"]), ["mango", "kiwi", "eggplant", "broccoli"]);
+print("Exercise 86 is correct.")
+
+
+// Working with JS Objects
+
+// The following objects 
+tukey_paper = {
+    "title": "The Future of Data Analysis",
+    "author": "John W. Tukey",
+    "link": "https://projecteuclid.org/euclid.aoms/1177704711",
+    "year_published": 1962
+}
+
+thomas_paper = {
+    "title": "A mathematical model of glutathione metabolism",
+    "author": "Rachel Thomas",
+    "link": "https://www.ncbi.nlm.nih.gov/pubmed/18442411",
+    "year_published": 2008
+}
+
+
+// Exercise 87
+// Write a function named getPaperTitle that takes in a dictionary and returns the title property
+
+assert(getPaperTitle(tukey_paper), "The Future of Data Analysis");
+assert(getPaperTitle(thomas_paper), "A mathematical model of glutathione metabolism");
+print("Exercise 87 is correct.")
+
+// this code defines a JS object with information about a book.
+book = {
+    "title": "Genetic Algorithms and Machine Learning for Programmers",
+    "price": 36.99,
+    "author": "Frances Buontempo"
+}
+
+// Exercise 89
+// Write a function named getPrice that takes in a dictionary and returns the price
+
+assert(getPrice(book), 36.99);
+print("Exercise 89 is complete.")
+
+
+
+// Exercise 90
+// Write a function named getBookAuthor that takes in a dictionary (the above declared book variable) and returns the author's name
+
+
+assert(getBookAuthor(book), "Frances Buontempo");
+print("Exercise 90 is complete.")
