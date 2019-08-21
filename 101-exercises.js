@@ -937,12 +937,12 @@ addToDone("Exercise 83 is correct.")
 
 
 // Exercise 84
-// Write a function definition named getUniqueValuesFromTwoLists that takes two arrays and returns a single array with only the unique values
+// Write a function definition named getUniqueValuesFromTwoArrays that takes two arrays and returns a single array with only the unique values
 
 
-assert(getUniqueValuesFromTwoLists([5, 1, 2, 3], [3, 4, 5, 5]), [1, 2, 3, 4, 5]);
-assert(getUniqueValuesFromTwoLists([1, 1], [2, 2, 3]), [1, 2, 3]);
-assert(getUniqueValuesFromTwoLists(["tomato", "mango", "kiwi"], ["eggplant", "tomato", "broccoli"]), ["tomato", "mango", "kiwi", "eggplant", "broccoli"]);
+assert(getUniqueValuesFromTwoArrays([5, 1, 2, 3], [3, 4, 5, 5]), [1, 2, 3, 4, 5]);
+assert(getUniqueValuesFromTwoArrays([1, 1], [2, 2, 3]), [1, 2, 3]);
+assert(getUniqueValuesFromTwoArrays(["tomato", "mango", "kiwi"], ["eggplant", "tomato", "broccoli"]), ["tomato", "mango", "kiwi", "eggplant", "broccoli"]);
 addToDone("Exercise 84 is correct.")
 
 
