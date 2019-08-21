@@ -607,3 +607,203 @@ assert(first("ubuntu"), "u");
 assert(first([1, 2, 3]), 1);
 assert(first(["python", "is", "awesome"]), "python");
 addToDoneList("Exercise 50 is correct.")
+
+
+
+
+// Exercise 51
+// Write a function definition named second that takes in sequence and returns the second value of that sequence.
+
+assert(second("ubuntu"), "b");
+assert(second([1, 2, 3]), 2);
+assert(second(["python", "is", "awesome"]), "is");
+print("Exercise 51 is correct.")
+
+
+// Exercise 52
+// Write a function definition named third that takes in sequence and returns the third value of that sequence.
+
+assert(third("ubuntu"), "u");
+assert(third([1, 2, 3]), 3);
+assert(third(["python", "is", "awesome"]), "awesome");
+print("Exercise 52 is correct.")
+
+
+// Exercise 53
+// Write a function definition named forth that takes in sequence and returns the forth value of that sequence.
+
+assert(forth("ubuntu"), "n");
+assert(forth([1, 2, 3, 4]), 4);
+assert(forth(["python", "is", "awesome", "right?"]), "right?");
+print("Exercise 53 is correct.")
+
+
+// Exercise 54
+// Write a function definition named last that takes in sequence and returns the last value of that sequence.
+
+assert(last("ubuntu"), "u");
+assert(last([1, 2, 3, 4]), 4);
+assert(last(["python", "is", "awesome"]), "awesome");
+assert(last(["kiwi", "mango", "guava"]), "guava");
+print("Exercise 54 is correct.")
+
+
+// Exercise 55
+// Write a function definition named secondToLast that takes in sequence and returns the second to last value of that sequence.
+
+assert(secondToLast("ubuntu"), "t");
+assert(secondToLast([1, 2, 3, 4]), 3);
+assert(secondToLast(["python", "is", "awesome"]), "is");
+assert(secondToLast(["kiwi", "mango", "guava"]), "mango");
+print("Exercise 55 is correct.")
+
+
+// Exercise 56
+// Write a function definition named thirdToLast that takes in sequence and returns the third to last value of that sequence.
+
+assert(thirdToLast("ubuntu"), "n");
+assert(thirdToLast([1, 2, 3, 4]), 2);
+assert(thirdToLast(["python", "is", "awesome"]), "python");
+assert(thirdToLast(["strawberry", "kiwi", "mango", "guava"]), "kiwi");
+print("Exercise 56 is correct.")
+
+
+// Exercise 57
+// Write a function definition named firstAndSecond that takes in sequence and returns the first and second value of that sequence as a list
+
+assert(firstAndSecond([1, 2, 3, 4]), [1, 2]);
+assert(firstAndSecond(["python", "is", "awesome"]), ["python", "is"]);
+assert(firstAndSecond(["strawberry", "kiwi", "mango", "guava"]), ["strawberry", "kiwi"]);
+print("Exercise 57 is correct.")
+
+
+// Exercise 58
+// Write a function definition named firstAndLast that takes in sequence and returns the first and last value of that sequence as a list
+
+assert(firstAndLast([1, 2, 3, 4]), [1, 4]);
+assert(firstAndLast(["python", "is", "awesome"]), ["python", "awesome"]);
+assert(firstAndLast(["strawberry", "kiwi", "mango", "guava"]), ["strawberry", "guava"]);
+print("Exercise 58 is correct.")
+
+
+
+// Exercise 59
+// Write a function definition named firstToLast that takes in sequence and returns the sequence with the first value moved to the end of the sequence.
+
+assert(firstToLast([1, 2, 3, 4]), [2, 3, 4, 1]);
+assert(firstToLast(["python", "is", "awesome"]), ["is", "awesome", "python"]);
+assert(firstToLast(["strawberry", "kiwi", "mango", "guava"]), ["kiwi", "mango", "guava", "strawberry"]);
+print("Exercise 59 is correct.")
+
+
+
+// Exercise 60
+// Write a function definition named sumAll that takes in sequence of numbers and returns all the numbers added together.
+
+assert(sumAll([1, 2, 3, 4]), 10);
+assert(sumAll([3, 3, 3]), 9);
+assert(sumAll([0, 5, 6]), 11);
+print("Exercise 60 is correct.")
+
+
+
+//  Exercise 61
+//  Write a function definition named mean that takes in sequence of numbers and returns the average value
+
+assert(mean([1, 2, 3, 4]), 2.5);
+assert(mean([3, 3, 3]), 3);
+assert(mean([1, 5, 6]), 4);
+print("Exercise 61 is correct.")
+
+
+
+// Exercise 62
+// Write a function definition named median that takes in sequence of numbers and returns the average value
+
+assert(median([1, 2, 3, 4, 5]), 3.0);
+assert(median([1, 2, 3]), 2.0);
+assert(median([1, 5, 6]), 5.0);
+assert(median([1, 2, 5, 6]), 3.5);
+print("Exercise 62 is correct.")
+
+
+// Exercise 63
+// Write a function definition named mode that takes in sequence of numbers and returns the most commonly occuring value
+
+assert(mode([1, 2, 2, 3, 4]), 2);
+assert(mode([1, 1, 2, 3]), 1);
+assert(mode([2, 2, 3, 3, 3]), 3);
+print("Exercise 63 is correct.")
+
+
+// Exercise 64
+// Write a function definition named productOfAll that takes in sequence of numbers and returns the product of multiplying all the numbers together
+
+assert(productOfAll([1, 2, 3]), 6);
+assert(productOfAll([3, 4, 5]), 60);
+assert(productOfAll([2, 2, 3, 0]), 0);
+print("Exercise 64 is correct.")
+
+
+// Keep this variable assignment for the next few problems
+numbers = [-5, -4, -3, -2, -1, 1, 2, 3, 4, 5] 
+
+
+// Exercise 65
+// Write a function definition named getHighestNumber that takes in sequence of numbers and returns the largest number.
+
+assert(getHighestNumber([1, 2, 3]), 3);
+assert(getHighestNumber([-5, -4, -3, -2, -1, 1, 2, 3, 4, 5]), 5);
+assert(getHighestNumber([-5, -3, 1]), 1);
+print("Exercise 65 is correct.")
+
+
+
+
+// Exercise 66
+// Write a function definition named getSmallestNumber that takes in sequence of numbers and returns the smallest number.
+
+assert(getSmallestNumber([1, 2, 3]), 1);
+assert(getSmallestNumber([-5, -4, -3, -2, -1, 1, 2, 3, 4, 5]), -5);
+assert(getSmallestNumber([-4, -3, 1]), -4);
+print("Exercise 66 is correct.")
+
+
+// Exercise 67
+// Write a function definition named onlyOddNumbers that takes in sequence of numbers and returns the odd numbers in a list.
+
+assert(onlyOddNumbers([1, 2, 3]), [1, 3]);
+assert(onlyOddNumbers([-5, -4, -3, -2, -1, 1, 2, 3, 4, 5]), [-5, -3, -1, 1, 3, 5]);
+assert(onlyOddNumbers([-4, -3, 1]), [-3, 1]);
+print("Exercise 67 is correct.")
+
+
+
+// Exercise 68
+// Write a function definition named onlyEvenNumbers that takes in sequence of numbers and returns the even numbers in a list.
+
+assert(onlyEvenNumbers([1, 2, 3]), [2]);
+assert(onlyEvenNumbers([-5, -4, -3, -2, -1, 1, 2, 3, 4, 5]), [-4, -2, 2, 4]);
+assert(onlyEvenNumbers([-4, -3, 1]), [-4]);
+print("Exercise 68 is correct.")
+
+
+// Exercise 69
+// Write a function definition named onlyPositiveNumbers that takes in sequence of numbers and returns the positive numbers in a list.
+
+assert(onlyPositiveNumbers([1, 2, 3]), [1, 2, 3]);
+assert(onlyPositiveNumbers([-5, -4, -3, -2, -1, 1, 2, 3, 4, 5]), [1, 2, 3, 4, 5]);
+assert(onlyPositiveNumbers([-4, -3, 1]), [1]);
+print("Exercise 69 is correct.")
+
+
+// Exercise 70
+// Write a function definition named onlyNegativeNumbers that takes in sequence of numbers and returns the negative numbers in a list.
+
+assert(onlyNegativeNumbers([1, 2, 3]), []);
+assert(onlyNegativeNumbers([-5, -4, -3, -2, -1, 1, 2, 3, 4, 5]), [-5, -4, -3, -2, -1]);
+assert(onlyNegativeNumbers([-4, -3, 1]), [-4, -3]);
+print("Exercise 70 is correct.")
+
+
+
