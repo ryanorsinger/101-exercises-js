@@ -157,7 +157,7 @@ assert(sayHello("World"), "Hello, World!");
 
 // Heres another example function definition
 // This plusTwo function takes in a variable and adds the number 2 to it.
-function addTwo(x) {
+function plusTwo(x) {
     return x + 2;
 }
 
