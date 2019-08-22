@@ -348,38 +348,38 @@ addToDone("Exercise 25 is correct.")
 
 
 // Exercise 26
-// Write a function definition named is_multiple_of_three that takes in a number and returns true or false if the number is evenly divisible by 3.
+// Write a function definition named isMultipleOfThree that takes in a number and returns true or false if the number is evenly divisible by 3.
 
-assert(is_multiple_of_three(3), true);
-assert(is_multiple_of_three(15), true);
-assert(is_multiple_of_three(9), true);
-assert(is_multiple_of_three(4), false);
-assert(is_multiple_of_three(10), false);
+assert(isMultipleOfThree(3), true);
+assert(isMultipleOfThree(15), true);
+assert(isMultipleOfThree(9), true);
+assert(isMultipleOfThree(4), false);
+assert(isMultipleOfThree(10), false);
 addToDone("Exercise 26 is correct.")
 
 
 
 
 // Exercise 27
-// Write a function definition named is_multiple_of_five that takes in a number and returns true or false if the number is evenly divisible by 5.
+// Write a function definition named isMultipleOfFive that takes in a number and returns true or false if the number is evenly divisible by 5.
 
-assert(is_multiple_of_five(3), false);
-assert(is_multiple_of_five(15), true);
-assert(is_multiple_of_five(9), false);
-assert(is_multiple_of_five(4), false);
-assert(is_multiple_of_five(10), true);
+assert(isMultipleOfFive(3), false);
+assert(isMultipleOfFive(15), true);
+assert(isMultipleOfFive(9), false);
+assert(isMultipleOfFive(4), false);
+assert(isMultipleOfFive(10), true);
 addToDone("Exercise 27 is correct.")
 
 
 
 // Exercise 28
-// Write a function definition named is_multiple_of_both_three_and_five that takes in a number and returns true or false if the number is evenly divisible by both 3 and 5.
+// Write a function definition named isMultipleOfBothThreeAndFive that takes in a number and returns true or false if the number is evenly divisible by both 3 and 5.
 
-assert(is_multiple_of_both_three_and_five(15), true);
-assert(is_multiple_of_both_three_and_five(45), true);
-assert(is_multiple_of_both_three_and_five(3), false);
-assert(is_multiple_of_both_three_and_five(9), false);
-assert(is_multiple_of_both_three_and_five(4), false);
+assert(isMultipleOfBothThreeAndFive(15), true);
+assert(isMultipleOfBothThreeAndFive(45), true);
+assert(isMultipleOfBothThreeAndFive(3), false);
+assert(isMultipleOfBothThreeAndFive(9), false);
+assert(isMultipleOfBothThreeAndFive(4), false);
 addToDone("Exercise 28 is correct.")
 
 
@@ -419,12 +419,12 @@ addToDone("Exercise 31 is correct.")
 
 
 // Exercise 32
-// Write a function definition named square_root that takes in a number and returns the square root of the provided number
+// Write a function definition named squareRoot that takes in a number and returns the square root of the provided number
 
 
-assert(square_root(4), 2.0);
-assert(square_root(64), 8.0);
-assert(square_root(81), 9.0);
+assert(squareRoot(4), 2.0);
+assert(squareRoot(64), 8.0);
+assert(squareRoot(81), 9.0);
 addToDone("Exercise 32 is correct.")
 
 
@@ -482,33 +482,33 @@ addToDone("Exercise 37 is correct.")
 
 
 // Exercise 38
-// Write a function definition named sum_of_squares that takes in two numbers, squares each number, then returns the sum of both squares.
+// Write a function definition named sumOfSquares that takes in two numbers, squares each number, then returns the sum of both squares.
 
-assert(sum_of_squares(3, 2), 13);
-assert(sum_of_squares(5, 2), 29);
-assert(sum_of_squares(2, 4), 20);
+assert(sumOfSquares(3, 2), 13);
+assert(sumOfSquares(5, 2), 29);
+assert(sumOfSquares(2, 4), 20);
 addToDone("Exercise 38 is correct.")
 
 
 
 // Exercise 39
-// Write a function definition named times_two_plus_three that takes in a number, multiplies it by two, adds 3 and returns the result.
+// Write a function definition named timesTwoPlusThree that takes in a number, multiplies it by two, adds 3 and returns the result.
 
-assert(times_two_plus_three(0), 3);
-assert(times_two_plus_three(1), 5);
-assert(times_two_plus_three(2), 7);
-assert(times_two_plus_three(3), 9);
-assert(times_two_plus_three(5), 13);
+assert(timesTwoPlusThree(0), 3);
+assert(timesTwoPlusThree(1), 5);
+assert(timesTwoPlusThree(2), 7);
+assert(timesTwoPlusThree(3), 9);
+assert(timesTwoPlusThree(5), 13);
 addToDone("Exercise 39 is correct.")
 
 
 // Exercise 40
-// Write a function definition named area_of_rectangle that takes in two numbers and returns the product.
+// Write a function definition named areaOfRectangle that takes in two numbers and returns the product.
 
-assert(area_of_rectangle(1, 3), 3);
-assert(area_of_rectangle(5, 2), 10);
-assert(area_of_rectangle(2, 7), 14);
-assert(area_of_rectangle(5.3, 10.3), 54.59);
+assert(areaOfRectangle(1, 3), 3);
+assert(areaOfRectangle(5, 2), 10);
+assert(areaOfRectangle(2, 7), 14);
+assert(areaOfRectangle(5.3, 10.3), 54.59);
 addToDone("Exercise 40 is correct.")
 
 
@@ -962,25 +962,25 @@ addToDone("Exercise 85 is correct.")
 
 
 // Exercise 86
-// Write a function definition named get_values_not_in_common that takes two arrays and returns a single array with the values that each array does not have in common
+// Write a function definition named getValuesNotInCommon that takes two arrays and returns a single array with the values that each array does not have in common
 
-assert(get_values_not_in_common([5, 1, 2, 3], [3, 4, 5, 5]), [1, 2, 4]);
-assert(get_values_not_in_common([1, 1], [2, 2, 3]), [1, 2, 3]);
-assert(get_values_not_in_common(["tomato", "mango", "kiwi"], ["eggplant", "tomato", "broccoli"]), ["mango", "kiwi", "eggplant", "broccoli"]);
+assert(getValuesNotInCommon([5, 1, 2, 3], [3, 4, 5, 5]), [1, 2, 4]);
+assert(getValuesNotInCommon([1, 1], [2, 2, 3]), [1, 2, 3]);
+assert(getValuesNotInCommon(["tomato", "mango", "kiwi"], ["eggplant", "tomato", "broccoli"]), ["mango", "kiwi", "eggplant", "broccoli"]);
 addToDone("Exercise 86 is correct.")
 
 
 // Working with JS Objects
 
 // The following objects 
-const tukey_paper = {
+const tukeyPaper = {
     "title": "The Future of Data Analysis",
     "author": "John W. Tukey",
     "link": "https://projecteuclid.org/euclid.aoms/1177704711",
     "year_published": 1962
 }
 
-const thomas_paper = {
+const thomasPaper = {
     "title": "A mathematical model of glutathione metabolism",
     "author": "Rachel Thomas",
     "link": "https://www.ncbi.nlm.nih.gov/pubmed/18442411",
@@ -991,8 +991,8 @@ const thomas_paper = {
 // Exercise 87
 // Write a function named getPaperTitle that takes in a object and returns the title property
 
-assert(getPaperTitle(tukey_paper), "The Future of Data Analysis");
-assert(getPaperTitle(thomas_paper), "A mathematical model of glutathione metabolism");
+assert(getPaperTitle(tukeyPaper), "The Future of Data Analysis");
+assert(getPaperTitle(thomasPaper), "A mathematical model of glutathione metabolism");
 addToDone("Exercise 87 is correct.")
 
 // this code defines a JS object with information about a book.
@@ -1046,9 +1046,9 @@ const books = [
 
 
 // Exercise 91
-// Write a function named get_numberOfBooks that takes in a array of objects and returns the number of objects in that array.
+// Write a function named getNumberOfBooks that takes in a array of objects and returns the number of objects in that array.
 
-assert(get_numberOfBooks(books), 4);
+assert(getNumberOfBooks(books), 4);
 addToDone("Exercise 91 is complete.")
 
 
@@ -1094,7 +1094,7 @@ assert(lowestPriceBook(books), {
 addToDone("Exercise 95 is complete.")
 
 
-const shopping_cart = {
+const shoppingCart = {
     "tax": .08,
     "items": [
         {
@@ -1128,9 +1128,9 @@ const shopping_cart = {
 
 // Exercise 96
 // Write a function named getTaxRate that takes in the above shopping cart as input and returns the tax rate.
-// Hint: How do you access a key's value on a object? The tax rate is one key of the entire shopping_cart object.
+// Hint: How do you access a key's value on a object? The tax rate is one key of the entire shoppingCart object.
 
-assert(getTaxRate(shopping_cart), .08);
+assert(getTaxRate(shoppingCart), .08);
 addToDone("Exercise 96 is complete")
 
 
@@ -1139,7 +1139,7 @@ addToDone("Exercise 96 is complete")
 // Write a function named numberOfItemTypes that takes in the shopping cart as input and returns the number of unique item types in the shopping cart. 
 // We're not yet using the quantity of each item, but rather focusing on determining how many different types of items are in the cart.
 
-assert(numberOfItemTypes(shopping_cart), 5);
+assert(numberOfItemTypes(shoppingCart), 5);
 addToDone("Exercise 97 is complete.")
 
 
@@ -1148,7 +1148,7 @@ addToDone("Exercise 97 is complete.")
 // Write a function named totalNumberOfItems that takes in the shopping cart as input and returns the total number all item quantities.
 // This should return the sum of all of the quantities from each item type
 
-assert(totalNumberOfItems(shopping_cart), 17);
+assert(totalNumberOfItems(shoppingCart), 17);
 addToDone("Exercise 98 is complete.")
 
 
@@ -1157,7 +1157,7 @@ addToDone("Exercise 98 is complete.")
 // Write a function named getAverageItemPrice that takes in the shopping cart as an input and returns the average of all the item prices.
 // Hint - This should determine the total price divided by the number of types of items. This does not account for each item type's quantity.\
 
-assert(getAverageItemPrice(shopping_cart), 2.1420000000000003);
+assert(getAverageItemPrice(shoppingCart), 2.1420000000000003);
 addToDone("Exercise 99 is complete.")
 
 
@@ -1166,17 +1166,17 @@ addToDone("Exercise 99 is complete.")
 // Write a function named getAverageSpentPerItem that takes in the shopping cart and returns the average of summing each item's quanties times that item's price.
 // Hint: You may need to set an initial total price and total total quantity to zero, then sum up and divide that total price by the total quantity
 
-assert(getAverageSpentPerItem(shopping_cart), 1.333529411764706);
+assert(getAverageSpentPerItem(shoppingCart), 1.333529411764706);
 addToDone("Exercise 100 is complete.")
 
 
 // Exercise 101
-// Write a function named most_spent_on_item that takes in the shopping cart as input and returns the object associated with the item that has the highest price*quantity.
+// Write a function named mostSpentOnItem that takes in the shopping cart as input and returns the object associated with the item that has the highest price*quantity.
 // Be sure to do this as programmatically as possible. 
 // Hint: Similarly to how we sometimes begin a function with setting a variable to zero, we need a starting place:
 // Hint: Consider creating a variable that is a object with the keys "price" and "quantity" both set to 0. You can then compare each item's price and quantity total to the one from "most"
 
-assert(most_spent_on_item(shopping_cart), {
+assert(mostSpentOnItem(shoppingCart), {
     "title": "chocolate",
     "price": 0.75,
     "quantity": 9
