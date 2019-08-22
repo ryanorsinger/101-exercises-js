@@ -54,3 +54,7 @@ section h2 {
 .troubleshooting p:nth-last-child(1) {
   margin: 2em;
 }
+
+#analytics {
+    visibility: hidden;
+}
