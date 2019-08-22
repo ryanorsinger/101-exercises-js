@@ -335,14 +335,14 @@ addToDone("Exercise 24 is correct.")
 
 
 // Exercise 25
-// Write a function definition named absolute_value that takes in a number and returns the absolute value of the provided number
+// Write a function definition named absoluteValue that takes in a number and returns the absolute value of the provided number
 
-assert(absolute_value(4), 4);
-assert(absolute_value(-5), 5);
-assert(absolute_value(positiveOddNumber), positiveOddNumber);
-assert(absolute_value(positiveEvenNumber), positiveEvenNumber);
-assert(absolute_value(negativeOddNumber), negativeOddNumber * -1);
-assert(absolute_value(negativeEvenNumber), negativeEvenNumber * -1);
+assert(absoluteValue(4), 4);
+assert(absoluteValue(-5), 5);
+assert(absoluteValue(positiveOddNumber), positiveOddNumber);
+assert(absoluteValue(positiveEvenNumber), positiveEvenNumber);
+assert(absoluteValue(negativeOddNumber), negativeOddNumber * -1);
+assert(absoluteValue(negativeEvenNumber), negativeEvenNumber * -1);
 addToDone("Exercise 25 is correct.")
 
 
