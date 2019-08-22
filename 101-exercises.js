@@ -753,12 +753,11 @@ addToDone("Exercise 64 is correct.")
 
 // Exercise 65
 // Write a function definition named getHighestNumber that takes in sequence of numbers and returns the largest number.
-numbers = [-5, 4, 3, -3, -2, 5, 1, -1, 2, -3, -4]; // keep this line that 
 
 
 assert(getHighestNumber([1, 2, 3]), 3);
-assert(getHighestNumber([-5, -4, -3, -2, -1, 1, 2, 3, 4, 5]), 5);
-assert(getHighestNumber([-5, -3, 1]), 1);
+assert(getHighestNumber([1, 5, 2, 3, 4]), 5);
+assert(getHighestNumber([5, 1, 2, 4, 9]), 9);
 addToDone("Exercise 65 is correct.")
 
 
@@ -766,12 +765,11 @@ addToDone("Exercise 65 is correct.")
 
 // Exercise 66
 // Write a function definition named getSmallestNumber that takes in sequence of numbers and returns the smallest number.
-numbers = [-5, 4, 3, -3, -2, 5, 1, -1, 2, -3, -4];  // keep this line that reassigns the numbers variable.
 
 
 assert(getSmallestNumber([1, 2, 3]), 1);
-assert(getSmallestNumber([-5, -4, -3, -2, -1, 1, 2, 3, 4, 5]), -5);
-assert(getSmallestNumber([-4, -3, 1]), -4);
+assert(getSmallestNumber([3, 5, 9, 8, 1]), 1);
+assert(getSmallestNumber([8, 9, 4, 5, 7]), 4);
 addToDone("Exercise 66 is correct.")
 
 
