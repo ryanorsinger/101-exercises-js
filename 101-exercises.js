@@ -609,7 +609,7 @@ addToDone("Exercise 49 is correct.")
 
 assert(first("ubuntu"), "u");
 assert(first([1, 2, 3]), 1);
-assert(first(["python", "is", "awesome"]), "python");
+assert(first(["JS", "is", "awesome"]), "JS");
 addToDone("Exercise 50 is correct.")
 
 
@@ -620,7 +620,7 @@ addToDone("Exercise 50 is correct.")
 
 assert(second("ubuntu"), "b");
 assert(second([1, 2, 3]), 2);
-assert(second(["python", "is", "awesome"]), "is");
+assert(second(["JS", "is", "awesome"]), "is");
 addToDone("Exercise 51 is correct.")
 
 
@@ -629,7 +629,7 @@ addToDone("Exercise 51 is correct.")
 
 assert(third("ubuntu"), "u");
 assert(third([1, 2, 3]), 3);
-assert(third(["python", "is", "awesome"]), "awesome");
+assert(third(["JS", "is", "awesome"]), "awesome");
 addToDone("Exercise 52 is correct.")
 
 
@@ -638,7 +638,7 @@ addToDone("Exercise 52 is correct.")
 
 assert(forth("ubuntu"), "n");
 assert(forth([1, 2, 3, 4]), 4);
-assert(forth(["python", "is", "awesome", "right?"]), "right?");
+assert(forth(["JS", "is", "awesome", "right?"]), "right?");
 addToDone("Exercise 53 is correct.")
 
 
@@ -647,7 +647,7 @@ addToDone("Exercise 53 is correct.")
 
 assert(last("ubuntu"), "u");
 assert(last([1, 2, 3, 4]), 4);
-assert(last(["python", "is", "awesome"]), "awesome");
+assert(last(["JS", "is", "awesome"]), "awesome");
 assert(last(["kiwi", "mango", "guava"]), "guava");
 addToDone("Exercise 54 is correct.")
 
@@ -657,7 +657,7 @@ addToDone("Exercise 54 is correct.")
 
 assert(secondToLast("ubuntu"), "t");
 assert(secondToLast([1, 2, 3, 4]), 3);
-assert(secondToLast(["python", "is", "awesome"]), "is");
+assert(secondToLast(["JS", "is", "awesome"]), "is");
 assert(secondToLast(["kiwi", "mango", "guava"]), "mango");
 addToDone("Exercise 55 is correct.")
 
@@ -667,7 +667,7 @@ addToDone("Exercise 55 is correct.")
 
 assert(thirdToLast("ubuntu"), "n");
 assert(thirdToLast([1, 2, 3, 4]), 2);
-assert(thirdToLast(["python", "is", "awesome"]), "python");
+assert(thirdToLast(["JS", "is", "awesome"]), "JS");
 assert(thirdToLast(["strawberry", "kiwi", "mango", "guava"]), "kiwi");
 addToDone("Exercise 56 is correct.")
 
@@ -676,7 +676,7 @@ addToDone("Exercise 56 is correct.")
 // Write a function definition named firstAndSecond that takes in sequence and returns the first and second value of that sequence as an array
 
 assert(firstAndSecond([1, 2, 3, 4]), [1, 2]);
-assert(firstAndSecond(["python", "is", "awesome"]), ["python", "is"]);
+assert(firstAndSecond(["JS", "is", "awesome"]), ["JS", "is"]);
 assert(firstAndSecond(["strawberry", "kiwi", "mango", "guava"]), ["strawberry", "kiwi"]);
 addToDone("Exercise 57 is correct.")
 
@@ -685,7 +685,7 @@ addToDone("Exercise 57 is correct.")
 // Write a function definition named firstAndLast that takes in sequence and returns the first and last value of that sequence as an array
 
 assert(firstAndLast([1, 2, 3, 4]), [1, 4]);
-assert(firstAndLast(["python", "is", "awesome"]), ["python", "awesome"]);
+assert(firstAndLast(["JS", "is", "awesome"]), ["JS", "awesome"]);
 assert(firstAndLast(["strawberry", "kiwi", "mango", "guava"]), ["strawberry", "guava"]);
 addToDone("Exercise 58 is correct.")
 
@@ -695,7 +695,7 @@ addToDone("Exercise 58 is correct.")
 // Write a function definition named firstToLast that takes in sequence and returns the sequence with the first value moved to the end of the sequence.
 
 assert(firstToLast([1, 2, 3, 4]), [2, 3, 4, 1]);
-assert(firstToLast(["python", "is", "awesome"]), ["is", "awesome", "python"]);
+assert(firstToLast(["JS", "is", "awesome"]), ["is", "awesome", "JS"]);
 assert(firstToLast(["strawberry", "kiwi", "mango", "guava"]), ["kiwi", "mango", "guava", "strawberry"]);
 addToDone("Exercise 59 is correct.")
 
