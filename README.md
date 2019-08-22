@@ -54,7 +54,6 @@
         </p>
         <img src="https://cdn.glitch.com/eea181be-12a8-4dfb-9200-096233b7a427%2Fsyntax_error.png?v=1566406423173" alt="image of a syntax error">
     </figure>
-    
     <figure>
         <p>
             <em>Uncaught Error</em> means the answer is incorrect and doesn't match the test. 
