@@ -1,15 +1,26 @@
-# 101 Exercises for Python Fundamentals
+# 101 Exercises for JS
 
 ## Rationale
-101 Exercises exists as a self-test tool for learning Python fundamentals including data types, operators, and writing user defined fuctions. There are also exercises for practicing with collections such as lists, dictionaries, and sets. 
+101 Exercises exists as a self-test tool for learning JS fundamentals including data types, operators, and writing user defined fuctions. There are also exercises for practicing with collections such as arrays, objects, and arrays of objects. 
 
-## Using 101 Exercises online (no setup/install since it's hosted)
-1. Create an account on Kaggle.com
-2. Go to https://www.kaggle.com/ryanorsinger/101-exercises and click "Copy and Edit" to make your own account.
-3. As you complete exercises, click "Commit" to save your work.
-4. For more directions, see https://www.kaggle.com/ryanorsinger/101-exercises
+## Quick Start
+1. Create yourself an account on Glitch.com
+2. Click on the fish icon in the upper right and select "Remix on Glitch" to make your own copy
+3. Use Glitch.com as your editor
 
-## Using 101 Exercises locally (will run faster and load quicker)
-- Download the .zip of this repository or do `git clone git@github.com:ryanorsinger/101-exercises.git`
-- `101-exercises.ipynb` is the interactive Jupyter notebook. If you need assistance installing Jupyter, visit https://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/
-- `101-exercises.py` is the Python script containing the same instructions and assertions (in case you prefer a .py script)
+## Orientation
+- `index.html` is the page that runs all the JS contained in `101-exercises.js`
+- Open the JavaScript console in Firefox or Chrome. F12 usually works.
+- Start writing solutions inside of 101-exercises.js in the editor.
+- Refresh `index.html` to re-run any new changes from 101-exercises.js
+
+## Rationale
+- 101 Exercises exists to help learners gain deep practice with fundamentals, operators, syntax, and converting problems in English to solutions in JS.
+- The best way to learn how to program is write programs. Each exercise is a tiny little program.
+- Expect to do a tremendous amount of search engine searches, make many mistakes, and try again. This is all part of programming. Take breaks.
+
+## Resources
+- <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps" target="_blank">JS First Steps</a>
+- <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks" target="_blank">JS Building Blocks</a>
+- <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions" target="_blank">Functions reference</a>
+- <a href="https://eloquentjavascript.net/" target="_blank">First chapters of Eloquent JavaScript</a>
