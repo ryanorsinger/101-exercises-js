@@ -24,3 +24,47 @@
 - <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks" target="_blank">JS Building Blocks</a>
 - <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions" target="_blank">Functions reference</a>
 - <a href="https://eloquentjavascript.net/" target="_blank">First chapters of Eloquent JavaScript</a>
+
+<article>
+    <h2>Troubleshooting</h2>
+    <h3>General Guidance</h3>
+    <ul>
+        <li>JS Code runs from top to bottom</li>
+        <li>Any error in your JS code keeps the following code from running.</li>
+        <li>Double check your spelling. Capitalization matters in programming.</li>
+        <li>If you're sure you spelled something, check it anyways.</li>
+    </ul>
+</article>
+<hr>
+<article>
+    <h3>Error messages</h3>
+    <figure>
+        <p>
+            <em>Reference Error</em> means you need to define the variable or function. 
+            <br>
+            The number by the 101-exercises.js filename highlights the line where the variable is referenced before it exist
+        </p>
+        <img src="https://cdn.glitch.com/eea181be-12a8-4dfb-9200-096233b7a427%2Freference_error.png?v=1566406423258" alt="image of a reference">
+    </figure>
+    <figure>
+        <p>
+            <em>Syntax Error</em> means there's a syntax error that needs to be fixed. 
+            <br>
+            The number by the 101-exercises.js filename highlights the line where the syntax error exists.
+        </p>
+        <img src="https://cdn.glitch.com/eea181be-12a8-4dfb-9200-096233b7a427%2Fsyntax_error.png?v=1566406423173" alt="image of a syntax error">
+    </figure>
+    
+    <figure>
+        <p>
+            <em>Uncaught Error</em> means the answer is incorrect and doesn't match the test. 
+            <br>    
+            The number by the 101-exercises.js filename highlights the line for the exercise where the expected value in the test does not match the actual value provided by the attempted solution. Ignore the line number 6 in assert.js.
+        </p>
+        <img src="https://cdn.glitch.com/eea181be-12a8-4dfb-9200-096233b7a427%2Funcaught_error.png?v=1566406423323" alt="uncaught error message">
+    </figure>
+</article>  
+<hr>
+<article>
+    <p>If you notice any typos, misspellings, or mistakes, please triple check your work and <a href="" target="_blank">open an issue on GitHub</a> citing both the line number and exercise number.</p>
+</article>
