@@ -64,6 +64,6 @@
     </figure>
 </article>  
 <hr>
-<article>
-    <p>If you notice any typos, misspellings, or mistakes, please triple check your work and <a href="" target="_blank">open an issue on GitHub</a> citing both the line number and exercise number.</p>
-</article>
+
+### Typos or misspellings
+If you notice any typos, misspellings, or mistakes, please triple check your work and [open an issue on GitHub](https://github.com/ryanorsinger/101-exercises-js/issues) citing both the line number and exercise number.
