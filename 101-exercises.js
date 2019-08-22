@@ -588,19 +588,19 @@ addToDone("Exercise 47 is correct.")
 // Write a function definition named endsWithVowel that takes in string and true if the string ends with a vowel
 
 
-assert(endsWithVowel("ubuntu") == true);
-assert(endsWithVowel("banana") == true);
-assert(endsWithVowel("mango") == true);
-assert(endsWithVowel("spinach") == false);
+assert(endsWithVowel("ubuntu"), true);
+assert(endsWithVowel("banana"), true);
+assert(endsWithVowel("mango"), true);
+assert(endsWithVowel("spinach"), false);
 addToDone("Exercise 48 is correct.")
 
 
 // Exercise 49
 // Write a function definition named startsAndEndsWithVowel that takes in string and returns true if the string starts and ends with a vowel
 
-assert(startsAndEndsWithVowel("ubuntu") == true);
-assert(startsAndEndsWithVowel("banana") == false);
-assert(startsAndEndsWithVowel("mango") == false);
+assert(startsAndEndsWithVowel("ubuntu"), true);
+assert(startsAndEndsWithVowel("banana"), false);
+assert(startsAndEndsWithVowel("mango"), false);
 addToDone("Exercise 49 is correct.")
 
 
