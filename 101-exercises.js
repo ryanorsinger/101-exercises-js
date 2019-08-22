@@ -322,14 +322,14 @@ addToDone("Exercise 23 is correct.")
 
 
 // Exercise 24
-// Write a function definition named reverse_sign that takes in a number and returns the provided number but with the sign reversed.
+// Write a function definition named reverseSign that takes in a number and returns the provided number but with the sign reversed.
 
-assert(reverse_sign(4), -4);
-assert(reverse_sign(-5), 5);
-assert(reverse_sign(positiveOddNumber), positiveOddNumber * -1);
-assert(reverse_sign(positiveEvenNumber), positiveEvenNumber * -1);
-assert(reverse_sign(negativeOddNumber), negativeOddNumber * -1);
-assert(reverse_sign(negativeEvenNumber), negativeEvenNumber * -1);
+assert(reverseSign(4), -4);
+assert(reverseSign(-5), 5);
+assert(reverseSign(positiveOddNumber), positiveOddNumber * -1);
+assert(reverseSign(positiveEvenNumber), positiveEvenNumber * -1);
+assert(reverseSign(negativeOddNumber), negativeOddNumber * -1);
+assert(reverseSign(negativeEvenNumber), negativeEvenNumber * -1);
 addToDone("Exercise 24 is correct.")
 
 
