@@ -732,13 +732,12 @@ addToDone("Exercise 62 is correct.")
 
 
 // Exercise 63
-// Write a function definition named mode that takes in sequence of numbers and returns the most commonly occuring value
-// *Hint* As always, be sure to use a search engine to help your efforts. "How to get the most common value in an array with JavaScript" should be a fruitful search.
+// Write a function definition named maxMinusMin that takes in an array of numbers and returns the difference of the maximum minus theminimum.
 
 
-assert(mode([1, 2, 2, 3, 4]), 2);
-assert(mode([1, 1, 2, 3]), 1);
-assert(mode([2, 2, 3, 3, 3]), 3);
+assert(maxMinusMin([1, 2, 2, 8, 3, 4]), 7);
+assert(maxMinusMin([1, 1, 2, 3, 9]), 8);
+assert(maxMinusMin([2, 2, 3, 3, 3, 7]), 5);
 addToDone("Exercise 63 is correct.")
 
 
