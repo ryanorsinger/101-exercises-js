@@ -12,7 +12,7 @@ const assert = function(actual, expected, message = "") {
 };
 
 
-// Keep this function here to be able to add and count correct questions
+// Keep this function here in order to add correct questions to the counter
 function addToDone(message) {
     var node = document.createElement("LI");                 // Create a <li> node
     var textnode = document.createTextNode(message);         // Create a text node
