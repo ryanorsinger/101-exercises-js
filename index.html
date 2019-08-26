@@ -8,6 +8,9 @@
     <meta name="keywords" content="learn to code, JavaScript">
     <meta name="author" content="Ryan Orsinger">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" 
+      type="image/png" 
+      href="https://cdn.glitch.com/project-avatar/eea181be-12a8-4dfb-9200-096233b7a427.png?1565986940392">
 </head>
 <body>
     <header>
@@ -22,13 +25,23 @@
                     <li>Create yourself an account on <a href="https://glitch.com">Glitch.com</a></li>
                     <li>Click on the fish icon in the upper right and select "Remix on Glitch" to make your own copy</li>
                     <li>Use Glitch.com as your editor</li>
+                    <li>Launch index.html with the "Show" icon in the Glitch editor.</li>
                 </ol>
             </article>
             <hr>
             <article>
+              <h3>Expected Workflow</h3>
+              <ul>
+                <li>Open index.html in your browser, open the JS console, view results</li>
+                <li>Use the glitch.com editor to make changes in the 101-exercises.js file</li>
+                <li>Refresh the index.html page</li>
+                <li>Repeat</li>
+              </ul>
+            </article>
+            <article>
                 <h3>Orientation</h3>
                 <ul>
-                    <li>index.html is the page that runs all the JS contained in 101-exercises.js</li>
+                    <li>The index.html file is this page with the instructions</li>
                     <li>Open the JavaScript console in <a href="https://developer.mozilla.org/en-US/docs/Tools/Web_Console/Opening_the_Web_Console" target="_blank">Firefox</a> or <a href="https://stackoverflow.com/questions/66420/how-do-you-launch-the-javascript-debugger-in-google-chrome" target="_blank">Chrome</a>. F12 usually works.</li>
                     <li>Start writing solutions inside of 101-exercises.js in the editor.</li>
                     <li>Refresh index.html to re-run any new changes from 101-exercises.js</li>
@@ -87,9 +100,9 @@
                     <p>
                         <em>Uncaught Error</em> means the answer is incorrect and doesn't match the test. 
                         <br>    
-                        The number by the 101-exercises.js filename highlights the line for the exercise where the expected value in the test does not match the actual value provided by the attempted solution. Ignore the line number 6 in assert.js.
+                        The number by the 101-exercises.js filename highlights the line for the exercise where the expected value in the test does not match the actual value provided by the attempted solution. Ignore the line numbers referenced in assert.js.
                     </p>
-                    <img src="https://cdn.glitch.com/eea181be-12a8-4dfb-9200-096233b7a427%2Funcaught_error.png?v=1566406423323" alt="uncaught error message">
+                    <img src="https://cdn.glitch.com/eea181be-12a8-4dfb-9200-096233b7a427%2Fexpected_vs_actual.png?v=1566843607897" alt="uncaught error message">
                 </figure>
             </article>  
             <hr>
@@ -111,8 +124,7 @@
 <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
 <script src="https://button.glitch.me/button.js"></script>
 
-<script src="./assert.js" type="text/javascript"></script>
-<script src="./display.js" type="text/javascript"></script>
+  
 <script src="./101-exercises.js" type="text/javascript"></script>
 </body>
 </html>

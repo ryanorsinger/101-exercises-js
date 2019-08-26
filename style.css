@@ -58,3 +58,7 @@ section h2 {
 #analytics {
     visibility: hidden;
 }
+
+#show {
+  height: 3em;
+}
