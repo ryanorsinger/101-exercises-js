@@ -1019,8 +1019,8 @@ addToDone("Exercise 87 is correct.")
 // Exercise 88
 // Write a function named getYearPublished that takes in an objects and returns the value behind the "year_published" key.
 
-assert(getYearPublished(tukey_paper), 1962, "Exercise 88");
-assert(getYearPublished(thomas_paper), 2008, "Exercise 88");
+assert(getYearPublished(tukeyPaper), 1962, "Exercise 88");
+assert(getYearPublished(thomasPaper), 2008, "Exercise 88");
 addToDone("Exercise 88 is correct.")
 
 
