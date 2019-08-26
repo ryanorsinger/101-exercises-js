@@ -945,27 +945,27 @@ addToDone("Exercise 83 is correct.")
 
 assert(getUniqueValuesFromTwoArrays([5, 1, 2, 3], [3, 4, 5, 5]), [1, 2, 3, 4, 5]);
 assert(getUniqueValuesFromTwoArrays([1, 1], [2, 2, 3]), [1, 2, 3]);
-assert(getUniqueValuesFromTwoArrays(["tomato", "mango", "kiwi"], ["eggplant", "tomato", "broccoli"]), ["tomato", "mango", "kiwi", "eggplant", "broccoli"]);
+assert(getUniqueValuesFromTwoArrays(["tomato", "mango", 2, "kiwi"], ["eggplant", "tomato", "broccoli"]), ["tomato", "mango", "kiwi", "eggplant", "broccoli"]);
 addToDone("Exercise 84 is correct.")
 
 
 // Exercise 85
-// Write a function definition named getValuesInCommon that takes two arrays and returns a single array with the values that each array has in common
+// Write a function named flatten that takes in an array of arrays. Return the flattened array.
 
 
-assert(getValuesInCommon([5, 1, 2, 3], [3, 4, 5, 5]), [3, 5]);
-assert(getValuesInCommon([1, 2], [2, 2, 3]), [2]);
-assert(getValuesInCommon(["tomato", "mango", "kiwi"], ["eggplant", "tomato", "broccoli"]), ["tomato"]);
+assert(flatten([[1, 2], [3, 4], [5, 6]]), [1, 2, 3, 4, 5, 6]);
+assert(flatten([[1, 2, 3], [1, 2, 3], [1, 2, 3]]), [1, 2, 3, 1, 2, 3, 1, 2, 3]);
+assert(flatten([["tomato", "mango", "kiwi"], ["eggplant", "broccoli"]]), ["tomato", "mango", "kiwi", "eggplant", "broccoli"]);
 addToDone("Exercise 85 is correct.")
 
 
 
 // Exercise 86
-// Write a function definition named getValuesNotInCommon that takes two arrays and returns a single array with the values that each array does not have in common
+// Write a function definition named addOneToArray that adds one to every number in an array
 
-assert(getValuesNotInCommon([5, 1, 2, 3], [3, 4, 5, 5]), [1, 2, 4]);
-assert(getValuesNotInCommon([1, 1], [2, 2, 3]), [1, 2, 3]);
-assert(getValuesNotInCommon(["tomato", "mango", "kiwi"], ["eggplant", "tomato", "broccoli"]), ["mango", "kiwi", "eggplant", "broccoli"]);
+assert(addOneToArray([1, 2, 3]), [2, 3, 4]);
+assert(addOneToArray([4, 4, 4]), [5, 5, 5]);
+assert(addOneToArray([9, 10, 11]), [10, 11, 12]);
 addToDone("Exercise 86 is correct.")
 
 
