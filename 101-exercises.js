@@ -927,11 +927,9 @@ assert(longestString(["hello", "everybody"]), "everybody");
 assert(longestString(["mary", "had", "a", "little", "lamb"]), "little");
 addToDone("Exercise 82 is correct.")
 
-// *hint* for the next few exercises, consider using sets - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set
-// If you've got a set and need to convert it back into an array, do a search for "convert a set into an array in JavaScript"
 
 // Exercise 83
-// Write a function definition named getUniqueValues that takes in an array and returns a set with only the unique values from that array.
+// Write a function definition named getUniqueValues that takes in an array and returns an with only the unique values from that array.
 
 assert(getUniqueValues(["ant", "ant", "mosquito", "mosquito", "ladybug"]), ["ant", "mosquito", "ladybug"]);
 assert(getUniqueValues(["b", "a", "n", "a", "n", "a", "s"]), ["b", "a", "n", "s"]);
