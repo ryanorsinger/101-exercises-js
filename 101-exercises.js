@@ -12,7 +12,7 @@ const assert = function(actual, expected, message = "") {
 };
 
 
-// Keep this function here to be able to add and count correct questions
+// Keep this function here in order to add correct questions to the counter
 function addToDone(message) {
     var node = document.createElement("LI");                 // Create a <li> node
     var textnode = document.createTextNode(message);         // Create a text node
@@ -30,7 +30,7 @@ function addToDone(message) {
 // Example problem setup: Create a variable named doingJSRightNow and assign it the boolean true.
 // The line below creates the variable named doingJSRightNow and assigns the boolean value true
 // To complete Exercise #0, uncomment the following line of JS
-// var doingJSRightNow = true
+var doingJSRightNow = false
 
 // The lines below will test your answer. If you see an error, then it means that your answer is incorrect or incomplete.
 assert(doingJSRightNow, true, "Exercise 0"); 
