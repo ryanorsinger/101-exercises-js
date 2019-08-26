@@ -1,5 +1,28 @@
 "use strict"; // leave this line here :)
 
+// Keep this function definition in order to test expected vs. actual results
+const assert = function(actual, expected, message = "") {
+
+    // This compares primitive values and collections. If they differ, throw an error.
+    if(JSON.stringify(actual) !== JSON.stringify(expected)) {
+        console.error('[assert] expected:    ' + expected)
+        console.error('[assert] instead got: ' + actual)
+        throw Error("Assert failed in " + message);
+    }
+};
+
+
+// Keep this function here to be able to add and count correct questions
+function addToDone(message) {
+    var node = document.createElement("LI");                 // Create a <li> node
+    var textnode = document.createTextNode(message);         // Create a text node
+    node.appendChild(textnode);                              // Append the text to <li>
+    node.classList.add("finished");
+    document.querySelector(".correct ul").appendChild(node);
+    document.querySelector("#count").innerHTML = document.querySelectorAll('.finished').length + " of 101";
+}
+
+
 // Welcome to 101 Exercises in JS
 // If you get "ReferenceError: someVariableName is not defined", that means you need to create a variable
 
@@ -10,7 +33,7 @@
 // var doingJSRightNow = true
 
 // The lines below will test your answer. If you see an error, then it means that your answer is incorrect or incomplete.
-assert(doingJSRightNow, true, "a variable holding a true boolean value should be equal to true"); 
+assert(doingJSRightNow, true, "Exercise 0"); 
 addToDone("Exercise 0 is correct");
 
 
@@ -50,7 +73,7 @@ assert(fruits, ["mango", "banana", "guava", "kiwi", "strawberry", "tomato"], "En
 addToDone("Exercise 5 is correct");
 
 // Exercise 6
-// Given the following assignment of the vegetables array, add "tomato" to the end of the array. 
+// add the string "tomato" onto the end of the vegetables array. 
 // Recommend using the built-in JS operation to add to an array.
 
 
@@ -224,7 +247,7 @@ addToDone("Exercise 15 is correct.")
 
 
 // Exercise 16
-// Write a function definition named identity that takes in any argument and returns that argument's value. Don't overthink this one!
+// Write a function definition named identity that takes in any input and returns that input. Don't overthink this one!
 
 assert(identity(fruits), fruits, "Ensure that the function is defined, named properly, and returns the correct value");
 assert(identity(vegetables), vegetables, "Ensure that the function is defined, named properly, and returns the correct value");
@@ -938,12 +961,12 @@ addToDone("Exercise 83 is correct.")
 
 
 // Exercise 84
-// Write a function definition named getUniqueValuesFromTwoArrays that takes two arrays and returns a single array with only the unique values
+// Write a function definition named elementsTimesTwo that takes in an array of numbers and returns an array with each value multiplied by 2.
 
 
-assert(getUniqueValuesFromTwoArrays([5, 1, 2, 3], [3, 4, 5, 5]), [1, 2, 3, 4, 5]);
-assert(getUniqueValuesFromTwoArrays([1, 1], [2, 2, 3]), [1, 2, 3]);
-assert(getUniqueValuesFromTwoArrays(["tomato", "mango", 2, "kiwi"], ["eggplant", "tomato", "broccoli"]), ["tomato", "mango", "kiwi", "eggplant", "broccoli"]);
+assert(elementsTimesTwo([1, 2, 3]), [2, 4, 6], "Exercise 84")
+assert(elementsTimesTwo([0, 0, 0]), [0, 0, 0], "Exercise 84")
+assert(elementsTimesTwo([5, 10, 15]), [10, 20, 30], "Exercise 84")
 addToDone("Exercise 84 is correct.")
 
 
