@@ -263,7 +263,7 @@ addToDone("Exercise 16 is correct.")
 
 
 
-assert(isPositiveOdd(3), true, "Exercise 17";
+assert(isPositiveOdd(3), true, "Exercise 17");
 assert(isPositiveOdd(positiveOddNumber), true, "Exercise 17");
 assert(isPositiveOdd(positiveEvenNumber), false, "Exercise 17");
 assert(isPositiveOdd(negativeOddNumber), false, "Exercise 17");
