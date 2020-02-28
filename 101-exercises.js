@@ -34,7 +34,6 @@ function addToDone(message) {
 
 // The lines below will test your answer. If you see an error, then it means that your answer is incorrect or incomplete.
 assert(doingJSRightNow, true, "Exercise 0"); 
-addToDone("Exercise 0 is correct");
 
 
 //  Exercise 1
