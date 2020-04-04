@@ -83,10 +83,10 @@ addToDone("Exercise 6 is correct")
 
 // Exercise 7
 // Given the array of numbers defined below, reverse the array of numbers that you created above. 
-var numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+var someNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 
-assert(numbers, [10, 9, 8, 7, 6, 5, 4, 3, 2, 1], "Exercise 7")
+assert(someNumbers, [10, 9, 8, 7, 6, 5, 4, 3, 2, 1], "Exercise 7")
 addToDone("Exercise 7 is correct")
 
 
@@ -263,7 +263,7 @@ addToDone("Exercise 16 is correct.")
 
 
 
-assert(isPositiveOdd(3), true, "Exercise 17";
+assert(isPositiveOdd(3), true, "Exercise 17");
 assert(isPositiveOdd(positiveOddNumber), true, "Exercise 17");
 assert(isPositiveOdd(positiveEvenNumber), false, "Exercise 17");
 assert(isPositiveOdd(negativeOddNumber), false, "Exercise 17");
