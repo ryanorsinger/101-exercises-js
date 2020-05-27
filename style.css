@@ -38,6 +38,10 @@ h1 {
     background-color: lavender;
 }
 
+.troubleshooting li {
+/*   margin: .5em; */
+}
+
 .correct {
     background-color: thistle;
 }
