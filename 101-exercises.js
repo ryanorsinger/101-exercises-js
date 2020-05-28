@@ -49,9 +49,9 @@ addToDone("Exercise 1 is correct.");
 assert(fruits, ["mango", "banana", "guava", "kiwi", "strawberry"], "Exercise 2");
 addToDone("Exercise 2 is correct.");
 
-//  Exercise 3
-//  Create a variable named vegetables and assign it an array of fruits containing the following vegetable names as strings: 
-//  eggplant, broccoli, carrot, cauliflower, and zucchini
+// Exercise 3
+// Create a variable named vegetables and assign it an array of strings containing the following vegetables.
+// eggplant, broccoli, carrot, cauliflower, and zucchini
 
 assert(vegetables, ["eggplant", "broccoli", "carrot", "cauliflower", "zucchini"], "Exercise 3");
 addToDone("Exercise 3 is correct.");
