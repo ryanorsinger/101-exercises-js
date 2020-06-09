@@ -58,3 +58,8 @@ section h2 {
 #show {
   height: 3em;
 }
+
+iframe {
+  display: block;
+	margin: 0 auto; 
+}
