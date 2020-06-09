@@ -33,16 +33,19 @@ function addToDone(message) {
 // var doingJSRightNow = true
 
 // The lines below will test your answer. If you see an error, then it means that your answer is incorrect or incomplete.
+// See https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Not_defined to understand this error message.
 assert(doingJSRightNow, true, "Exercise 0"); 
 
 
 //  Exercise 1
 // On the line below, create a variable named onMarsRightNow and assign it the boolean value of false
+// For more on variables, see https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Variables
 
 assert(onMarsRightNow, false, "Exercise 1");
 addToDone("Exercise 1 is correct.");
 
 // Exercise 2
+// For more on arrays, see https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Arrays
 // Create a variable named fruits and assign it an array of strings containing the following fruits.
 // mango, banana, guava, kiwi, and strawberry.
 
@@ -160,7 +163,7 @@ var negativeEvenNumber = randomNegativeEvenNumber();
 var negativeOddNumber = randomNegativeOddNumber();
 
 // Writing functions
-// See https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions for help with writing functions
+// See https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Functions for help with writing functions
 // Be sure to return values from your function definitions. The assert statements will call/run your function(s) for you.
 
 
@@ -201,15 +204,26 @@ assert(addOne(negativeOddNumber), negativeOddNumber + 1, "Exercise 11");
 addToDone("Exercise 11 is correct.")
 
 
+
 // Exercise 12
 // Write a function definition named isPositive that takes in a number and returns true or false if that number is positive.
+// Think about the definition of a number that is positive. 
+// Is 5 positive? Is 0.25 positive? Is 0.00001 positive? Is -0.001 positive? 
+// Is zero itself positive? What about infinity? What about negative infinity?
+// See https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators for guidance with JS comparison operators.
 
 
 
+assert(isPositive(0.25), true, "Exercise 12");
+assert(isPositive(0.00001), true, "Exercise 12");
+assert(isPositive(Infinity), true, "Exercise 12");
+assert(isPositive(0), false, "Exercise 12");
+assert(isPositive(-0.001), false, "Exercise 12");
 assert(isPositive(positiveOddNumber), true, "Exercise 12");
 assert(isPositive(positiveEvenNumber), true, "Exercise 12");
 assert(isPositive(negativeOddNumber), false, "Exercise 12");
 assert(isPositive(negativeEvenNumber), false, "Exercise 12");
+assert(isPositive(-Infinity), false, "Exercise 12");
 addToDone("Exercise 12 is correct.")
 
 
