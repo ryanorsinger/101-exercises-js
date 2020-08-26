@@ -568,6 +568,19 @@ assert(circumference(7), 43.982297150257104, "Exercise 42");
 addToDone("Exercise 42 is correct.")
 
 
+// In earlier exercises, the solution was to use a logical AND.
+// In some of the future exercises, the solution will be to use a logical OR. 
+// The following two example functions are examples that provide a hint on how to as
+
+// Example function where the function returns true if the input is one OR two.
+function isOneOrTwo(x) {
+    return x == 1 || x == 2
+}
+
+// Example function where the input is one of 3 possibilities
+function isOneOrTwoOrThree(x) {
+    return x == 1 || x == 2 || x == 3
+}
 
 // Exercise 43
 // Write a function definition named isVowel that takes in value and returns true if the value is a, e, i, o, u in upper or lower case.
