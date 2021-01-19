@@ -583,6 +583,7 @@ function isOneOrTwoOrThree(x) {
 }
 
 // Exercise 43
+// Review this code carefully https://gist.github.com/ryanorsinger/5627b954d119dabb3d8c44d56b38c354 if you want more guidance on Exercises 43, 44, and 45.
 // Write a function definition named isVowel that takes in value and returns true if the value is a, e, i, o, u in upper or lower case.
 
 assert(isVowel("a"), true, "Exercise 43");
