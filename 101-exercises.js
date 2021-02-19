@@ -204,13 +204,18 @@ assert(addOne(negativeOddNumber), negativeOddNumber + 1, "Exercise 11");
 addToDone("Exercise 11 is correct.")
 
 
+// The next exercises will be focusing on basic operators in JS
+// Here is the documentation on comparison operators https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators#relational_operators
+// Here are some example functions that will demonstrate their usage https://gist.github.com/ryanorsinger/e843c7d0966993bd8193f0afabe16ae0
+
+
 
 // Exercise 12
 // Write a function definition named isPositive that takes in a number and returns true or false if that number is positive.
 // Think about the definition of a number that is positive. 
 // Is 5 positive? Is 0.25 positive? Is 0.00001 positive? Is -0.001 positive? 
 // Is zero itself positive? What about infinity? What about negative infinity?
-// See https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators for guidance with JS comparison operators.
+// If you get stuck, be sure to check the example code and documentation listed above
 
 
 
@@ -568,8 +573,22 @@ assert(circumference(7), 43.982297150257104, "Exercise 42");
 addToDone("Exercise 42 is correct.")
 
 
+// In earlier exercises, the solution was to use a logical AND.
+// In some of the future exercises, the solution will be to use a logical OR. 
+// The following two example functions are examples that provide a hint on how to as
+
+// Example function where the function returns true if the input is one OR two.
+function isOneOrTwo(x) {
+    return x == 1 || x == 2
+}
+
+// Example function where the input is one of 3 possibilities
+function isOneOrTwoOrThree(x) {
+    return x == 1 || x == 2 || x == 3
+}
 
 // Exercise 43
+// Review this code carefully https://gist.github.com/ryanorsinger/5627b954d119dabb3d8c44d56b38c354 if you want more guidance on Exercises 43, 44, and 45.
 // Write a function definition named isVowel that takes in value and returns true if the value is a, e, i, o, u in upper or lower case.
 
 assert(isVowel("a"), true, "Exercise 43");
