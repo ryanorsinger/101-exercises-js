@@ -205,16 +205,13 @@ addToDone("Exercise 11 is correct.")
 
 
 // The next exercises will be focusing on basic operators in JS
-// Here is the documentation on comparison operators https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators#relational_operators
-// Here are example functions that demonstrate using operators https://gist.github.com/ryanorsinger/e843c7d0966993bd8193f0afabe16ae0
-
-
-
 // Exercise 12
 // Write a function definition named isPositive that takes in a number and returns true or false if that number is positive.
 // Think about the definition of a number that is positive. 
 // Is 5 positive? Is 0.25 positive? Is 0.00001 positive? Is -0.001 positive? 
 // Is zero itself positive? What about infinity? What about negative infinity?
+// Documentation for comparison operators https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators#relational_operators
+// HINT - here are example functions using comparison operators https://gist.github.com/ryanorsinger/e843c7d0966993bd8193f0afabe16ae0
 // If you get stuck, be sure to check the example code and documentation listed above
 
 
